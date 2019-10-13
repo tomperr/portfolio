@@ -2,7 +2,7 @@
 * @Author: TomPC
 * @Date:   2019-10-07 19:50:49
 * @Last Modified by:   TomPC
-* @Last Modified time: 2019-10-07 22:28:25
+* @Last Modified time: 2019-10-13 17:51:30
 */
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -31,7 +31,21 @@ function setAllBackgrounds() {
 	for (let b of bgs) {
 		// resize every backgrounds
 		setRatio(b);
+		centerBackground(b);
 	}
+}
+
+function centerBackground(b) {
+	let b_width = b.offsetWidth;
+	let b_height = b.offsetHeight;
+	let w_width = window.innerWidth;
+	let w_height = window.innerHeight;
+
+	let offsetRight = (b_width - w_width) / 4;
+	let offsetBottom = (b_height - w_height) / 4;
+
+	b.style.bottom = offsetBottom + "px";
+	b.style.right = offsetRight + "px";
 }
 
 function setRatio(img) {

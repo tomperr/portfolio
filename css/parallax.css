@@ -1,0 +1,17 @@
+.background {
+	background-origin: content-box;
+	background-position: center;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: 1;
+	transition: all 1s ease-out;
+}
+
+.overlay {
+	position: absolute;
+	width: auto;
+	height: auto;
+	z-index: 2;
+	transition: all 1s ease-out;
+}

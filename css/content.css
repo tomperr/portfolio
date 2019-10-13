@@ -1,0 +1,83 @@
+#content {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1px solid black;
+}
+
+/* HEADER */
+
+#header {
+	background: url('../img/bg.jpg');
+	background-size: cover;
+	text-align: center;
+}
+
+#titles {
+	display: inline-block;
+
+	position: relative;
+	top: 60%;
+	z-index: 2;
+
+	color: white;
+}
+
+#titles h1 {
+	padding: 10px 30px 20px 30px;
+
+	font-size: 5em;
+	font-family: Imperfecta;
+	letter-spacing: 2px;
+}
+
+#titles h2 {
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+	padding: 10px 20px 10px 20px;
+
+	font-family: Imperfecta;
+	font-size: 2em;
+	letter-spacing: 1px;
+}
+
+.subtitle {
+	display: inline-block;
+	font-family: Imperfecta;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	background-color: #f1c40f;
+	padding: 10px 10px 10px 200px;
+	color: white;
+}
+
+#about {
+	background: url('../img/pattern-black.jpg');
+	background-size: cover;
+}
+
+/* ABOUT */
+
+#about-img {
+	background: url('../img/about-img.jpg');
+	background-size: cover;
+}
+
+/* SKILLS */
+
+#skills-title, .skill-container > h3 {
+	flex: 0 1 auto;
+}
+
+#skills, .skill-container > div {
+	flex: 1 1 auto;
+}
+
+.skill-container {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}

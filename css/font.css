@@ -1,0 +1,30 @@
+/*
+* @Author: TomPC
+* @Date:   2019-10-13 17:23:36
+* @Last Modified by:   TomPC
+* @Last Modified time: 2019-10-13 17:27:14
+*/
+
+@font-face {
+	font-family: LemonMilk;
+	src: url('../font/LemonMilk.otf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: LemonMilk;
+	src: url('../font/LemonMilkBold.otf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: LemonMilk;
+	src: url('../font/LemonMilklight.otf');
+	font-weight: lighter;
+}
+
+@font-face {
+	font-family: Imperfecta;
+	src: url('../font/ImperfectaRegular.ttf');
+	font-weight: normal;
+}
