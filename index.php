@@ -23,11 +23,14 @@
 		include_once "header.php";
 		include_once "about.php";
 		include_once "skills.php";
+		include_once "experiences.php";
 		
 		?>
 	</main>
 
+	<script src="js/menu.js"></script>
 	<script src="js/parallax.js"></script>
+	<script src="js/skills.js"></script>
 
 </body>
 </html>

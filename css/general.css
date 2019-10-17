@@ -29,6 +29,11 @@ main {
 	position: relative;
 }
 
+.v-delimiter {
+	width: 1px;
+	background-color: black;
+}
+
 .spaced {
 	position:absolute;
 	height:auto;
@@ -64,7 +69,7 @@ span.highlight {
 
 .flex, .flex-col, .flex-row {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 .flex-row {
@@ -73,6 +78,14 @@ span.highlight {
 
 .flex-col {
 	flex-direction: column;
+}
+
+.flex-item-fill {
+	flex: 1 1 auto;
+}
+
+.flex-item-auto {
+	flex: 0 1 auto;
 }
 
 .col-1 {
@@ -85,7 +98,7 @@ span.highlight {
 
 .col-3 {
 	flex: 3;
-} 
+}
 
 .inline-block {
 	display: inline-block;
@@ -145,4 +158,15 @@ span.highlight {
 
 .text-midnight {
 	color: #2c3e50;
+}
+
+/* ARROWS */
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #f00;
 }
