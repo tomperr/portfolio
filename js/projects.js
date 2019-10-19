@@ -34,14 +34,20 @@ function refreshActive(elt) {
 function disableCurrentProject() {
 	let project = document.querySelector(".project.active");
 	let description = document.querySelector(".project_description.active");
+	let technos = document.querySelector(".project-technos.active");
 
 	project.classList.remove('active');
 	description.classList.remove('active');
+	technos.classList.remove('active');
 }
 
 function setActive(elt) {
 	elt.classList.add('active');
 	let id = elt.dataset.p_id;
+
 	let description = document.querySelector(".project_description[data-p_id='" + id + "']");
 	description.classList.add('active');
+
+	let technos = document.querySelector(".project-technos[data-p_id='" + id + "']");
+	technos.classList.add('active');
 }

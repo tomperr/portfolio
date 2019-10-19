@@ -277,3 +277,11 @@
 .project[data-p_id='5'] {
 	background-color: red;
 }
+
+.project-technos {
+	display: none;
+}
+
+.project-technos.active {
+	display: block;
+}

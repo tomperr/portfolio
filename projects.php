@@ -32,32 +32,74 @@
 				<div class="flex-row h100">
 					<div id="projects-descriptions" class="flex-grow">
 						<div data-p_id='1' class="project_description">
-							<h4>Nom</h4>
-							<p>Description</p>
+							<h4 class="h-4">Nom</h4>
+							<p class="h-5">Description</p>
 						</div>
 						<div data-p_id='2' class="project_description">
-							<h4>Nom</h4>
-							<p>Description2</p>
+							<h4 class="h-4">Nom</h4>
+							<p class="h-5">Description2</p>
 						</div>
 						<div data-p_id='3' class="project_description active">
-							<h4>Nom</h4>
-							<p>Description3</p>
+							<h4 class="h-4">Nom</h4>
+							<p class="h-5">Description3</p>
 						</div>
 						<div data-p_id='4' class="project_description">
-							<h4>Nom</h4>
-							<p>Description4</p>
+							<h4 class="h-4">Nom</h4>
+							<p class="h-5">Description4</p>
 						</div>
 						<div data-p_id='5' class="project_description">
-							<h4>Nom</h4>
-							<p>Description5</p>
+							<h4 class="h-4">Nom</h4>
+							<p class="h-5">Description5</p>
+						</div>
+					</div>
+					<div id="projects-technos" class="pl-2 pr-2">
+						<div data-p_id="1" class="project-technos flex-row flex-wrap">
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
+							<div class="inline-block bg-alizarin padding margin h-5">
+								Algorithms
+							</div>
+						</div>
+						<div data-p_id="2" class="project-technos flex-row flex-wrap">
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
+						</div>
+						<div data-p_id="3" class="project-technos active flex-row flex-wrap">
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
+						</div>
+						<div data-p_id="4" class="project-technos flex-row flex-wrap">
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
+						</div>
+						<div data-p_id="5" class="project-technos flex-row flex-wrap">
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
+							<div class="inline-block bg-river padding margin h-5">
+								Algorithms
+							</div>
 						</div>
 					</div>
 					<div id="projects-buttons" class="flex-col">
 						<div>
-							<a href="#" class="btn">truc</a>
+							<a href="#" class="btn btn-primary">truc</a>
 						</div>
-						<div>
-							<a href="#" class="btn">truc</a>
+						<div class="mt-1">
+							<a href="#" class="btn btn-danger">truc</a>
 						</div>
 					</div>
 				</div>
