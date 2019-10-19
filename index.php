@@ -24,6 +24,7 @@
 		include_once "about.php";
 		include_once "skills.php";
 		include_once "experiences.php";
+		include_once "projects.php";
 		
 		?>
 	</main>
@@ -31,6 +32,7 @@
 	<script src="js/menu.js"></script>
 	<script src="js/parallax.js"></script>
 	<script src="js/skills.js"></script>
+	<script src="js/projects.js"></script>
 
 </body>
 </html>

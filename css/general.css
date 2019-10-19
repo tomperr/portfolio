@@ -100,6 +100,10 @@ span.highlight {
 	flex: 3;
 }
 
+.flex-grow {
+	flex-grow: 1;
+}
+
 .inline-block {
 	display: inline-block;
 }
@@ -169,4 +173,13 @@ span.highlight {
 	border-right: 20px solid transparent;
 	
 	border-top: 20px solid #f00;
+}
+
+/* LINKS */
+
+a.btn {
+	display: inline-block;
+	font-size: 2.3em;
+	padding: 8px 20px;
+	border: 1px solid black;
 }
