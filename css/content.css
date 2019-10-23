@@ -248,6 +248,7 @@
 	top: 0px;
 	border: 1px solid black;
 	transition: all 0.5s ease;
+	filter: blur(0px);
 }
 
 .project.active {
@@ -284,4 +285,30 @@
 
 .project-technos.active {
 	display: block;
+}
+
+/* Projects img */
+
+#project-velore {
+	background: url('../img/velore');
+	background-size: cover;
+}
+
+#project-unity {
+	background: url('../img/notanassetstoredungeon.png');
+	background-size: cover;
+}
+
+#project-sfml {
+	background: url('../img/superfiremegalazer.png');
+	background-size: cover;
+}
+
+#project-blog {
+	background: url('../img/blog.png');
+	background-size: cover;
+}
+#project-kroon {
+	background: url('../img/kroon.png');
+	background-size: cover;
 }
