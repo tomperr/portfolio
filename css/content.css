@@ -287,6 +287,14 @@
 	display: block;
 }
 
+.project-buttons {
+	display: none;
+}
+
+.project-buttons.active {
+	display: block;
+}
+
 /* Projects img */
 
 #project-velore {

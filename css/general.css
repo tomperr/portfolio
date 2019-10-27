@@ -88,6 +88,14 @@ span.highlight {
 	flex: 0 1 auto;
 }
 
+.flex-end {
+	justify-content: flex-end;
+}
+
+.flex-between {
+	justify-content: space-between;
+}
+
 .flex-wrap {
 	flex-wrap: wrap !important;
 }
@@ -185,7 +193,6 @@ a.btn {
 	display: inline-block;
 	font-size: 2.3em;
 	padding: 8px 20px;
-	border: 1px solid black;
 }
 
 a.btn.btn-primary {

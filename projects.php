@@ -30,81 +30,132 @@
 			</div>
 			<div id="projects_complement" class="flex-item-fill mt-3">
 				<div class="flex-row h100">
-					<div id="projects-descriptions" class="flex-grow">
+					<div id="projects-descriptions" class="col-3">
 						<div data-p_id='1' class="project_description">
-							<h4 class="h-4">Nom</h4>
-							<p class="h-5">Description</p>
+							<h4 class="h-4">Velore</h4>
+							<p class="h-5">
+								Website for family bike courses
+							</p>
 						</div>
 						<div data-p_id='2' class="project_description">
-							<h4 class="h-4">Nom</h4>
-							<p class="h-5">Description2</p>
+							<h4 class="h-4">Super Fire Mega Lazer</h4>
+							<p class="h-5">
+								Shoot'em up game
+							</p>
 						</div>
 						<div data-p_id='3' class="project_description active">
-							<h4 class="h-4">Nom</h4>
-							<p class="h-5">Description3</p>
+							<h4 class="h-4">Not An Asset Store Dungeon</h4>
+							<p class="h-5">
+								2D Rogue like game
+							</p>
 						</div>
 						<div data-p_id='4' class="project_description">
-							<h4 class="h-4">Nom</h4>
-							<p class="h-5">Description4</p>
+							<h4 class="h-4">42 Blog</h4>
+							<p class="h-5">
+								Personal blog made to share my 42 school's experience
+							</p>
 						</div>
 						<div data-p_id='5' class="project_description">
-							<h4 class="h-4">Nom</h4>
-							<p class="h-5">Description5</p>
+							<h4 class="h-4">Kroon</h4>
+							<p class="h-5">
+								Medieval kingdom management game, inspired by a game called "Reigns"
+							</p>
 						</div>
 					</div>
-					<div id="projects-technos" class="pl-2 pr-2">
-						<div data-p_id="1" class="project-technos flex-row flex-wrap">
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
+					<div class="flex-col flex-between col-1">
+						<div id="projects-technos" class="pl-4">
+							<div data-p_id="1" class="project-technos flex-row flex-wrap" align="right">
+								<div class="inline-block bg-river padding margin h-5">
+									PHP
+								</div>
+								<div class="inline-block bg-alizarin padding margin h-5">
+									HTML
+								</div>
+								<div class="inline-block bg-sun padding margin h-5">
+									CSS
+								</div>
+								<div class="inline-block bg-emerald padding margin h-5">
+									MySQL
+								</div>
 							</div>
-							<div class="inline-block bg-alizarin padding margin h-5">
-								Algorithms
+							<div data-p_id="2" class="project-technos flex-row flex-wrap" align="right">
+								<div class="inline-block bg-sun padding margin h-5">
+									C++
+								</div>
+								<div class="inline-block bg-alizarin padding margin h-5">
+									SFML
+								</div>
+							</div>
+							<div data-p_id="3" class="project-technos active flex-row flex-wrap" align="right">
+								<div class="inline-block bg-river padding margin h-5">
+									Unity
+								</div>
+								<div class="inline-block bg-emerald padding margin h-5">
+									C#
+								</div>
+								<div class="inline-block bg-sun padding margin h-5">
+									POO
+								</div>
+								<div class="inline-block bg-alizarin padding margin h-5">
+									Photoshop
+								</div>
+								<div class="inline-block bg-river padding margin h-5">
+									Git
+								</div>
+							</div>
+							<div data-p_id="4" class="project-technos flex-row flex-wrap" align="right">
+								<div class="inline-block bg-sun padding margin h-5">
+									Python
+								</div>
+								<div class="inline-block bg-emerald padding margin h-5">
+									SQLite
+								</div>
+							</div>
+							<div data-p_id="5" class="project-technos flex-row flex-wrap" align="right">
+								<div class="inline-block bg-alizarin padding margin h-5">
+									Java
+								</div>
+								<div class="inline-block bg-sun padding margin h-5">
+									POO
+								</div>
 							</div>
 						</div>
-						<div data-p_id="2" class="project-technos flex-row flex-wrap">
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
+						<div id="projects-buttons" class="flex-col flex-end">
+							<div data-p_id="1" class="project-buttons" align="right">
+								<div>
+									<a href="#" class="btn btn-primary">Code</a>
+								</div>
 							</div>
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
+							<div data-p_id="2" class="project-buttons" align="right">
+								<div>
+									<a href="#" class="btn btn-primary">Code</a>
+								</div>
+								<div class="mt-1">
+									<a href="#" class="btn btn-danger">Download</a>
+								</div>
 							</div>
-						</div>
-						<div data-p_id="3" class="project-technos active flex-row flex-wrap">
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
+							<div data-p_id="3" class="project-buttons active" align="right">
+								<div>
+									<a href="#" class="btn btn-primary">Code</a>
+								</div>
+								<div class="mt-1">
+									<a href="#" class="btn btn-danger">Download</a>
+								</div>
 							</div>
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
+							<div data-p_id="4" class="project-buttons" align="right">
+								<div>
+									<a href="#" class="btn btn-primary">Code</a>
+								</div>
 							</div>
-						</div>
-						<div data-p_id="4" class="project-technos flex-row flex-wrap">
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
+							<div data-p_id="5" class="project-buttons" align="right">
+								<div>
+									<a href="#" class="btn btn-primary">Code</a>
+								</div>
 							</div>
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
-							</div>
-						</div>
-						<div data-p_id="5" class="project-technos flex-row flex-wrap">
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
-							</div>
-							<div class="inline-block bg-river padding margin h-5">
-								Algorithms
-							</div>
-						</div>
-					</div>
-					<div id="projects-buttons" class="flex-col">
-						<div>
-							<a href="#" class="btn btn-primary">truc</a>
-						</div>
-						<div class="mt-1">
-							<a href="#" class="btn btn-danger">truc</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
 	</div>
 </div>
