@@ -320,3 +320,10 @@
 	background: url('../img/kroon.png');
 	background-size: cover;
 }
+
+/* CONTACT */
+
+.section#contact {
+	background: url('../img/pattern-black.jpg');
+	background-size: cover;
+}

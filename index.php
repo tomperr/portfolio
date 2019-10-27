@@ -25,6 +25,7 @@
 		include_once "skills.php";
 		include_once "experiences.php";
 		include_once "projects.php";
+		include_once "contact.php";
 		
 		?>
 	</main>

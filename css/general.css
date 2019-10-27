@@ -100,6 +100,10 @@ span.highlight {
 	flex-wrap: wrap !important;
 }
 
+.flex-around {
+	justify-content: space-around;
+}
+
 .col-1 {
 	flex: 1;
 }
@@ -208,4 +212,54 @@ a.btn.btn-success {
 a.btn.btn-danger {
 	background-color: #e74c3c;;
 	color: white;
+}
+
+/* FORM */
+
+.form-control, .form-group {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group-inline {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	column-gap: 20px;
+}
+
+.form-group-inline > .form-control {
+	flex: 1;
+
+}
+
+.form-control > label {
+	font-size: 1.5em;
+}
+
+.form-control > input, .form-control > textarea {
+
+}
+
+input[type="text"], textarea {
+	padding-left: 0.5em;
+	font-size: 1.5em;
+	border: 3px solid #3498db;
+}
+
+input[type="text"] {
+	height: 1.5em;
+}
+
+textarea {
+	padding-top: 0.2em;
+}
+
+input::placeholder, textarea::placeholder {
+	color: rgb(120,120,120);
 }
