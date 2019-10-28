@@ -216,6 +216,10 @@ a.btn.btn-danger {
 
 /* FORM */
 
+form {
+	position: relative;
+}
+
 .form-control, .form-group {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -262,4 +266,13 @@ textarea {
 
 input::placeholder, textarea::placeholder {
 	color: rgb(120,120,120);
+}
+
+input[type="submit"] {
+	height: 1.5em;
+	background-color: #3498db;
+	color: white;
+	font-size: 1.5em;
+	border: 3px solid #3498db;
+	padding: 0px 0.5em;
 }

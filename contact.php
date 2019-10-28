@@ -31,7 +31,9 @@
 							<label for="form_message">Message</label>
 							<textarea class="flex-item-fill" name="form_message" id="form_message" placeholder="Hi Tom!"></textarea>
 						</div>
-						<input type="submit" name="send_mail">
+						<div align="right">
+							<input type="submit" name="send_mail">
+						</div>
 					</form>
 				</div>
 			</div>
