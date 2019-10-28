@@ -39,15 +39,15 @@
 			</div>
 		</div>
 
-		<div class="flex-item-auto bg-midnight mt-2">
+		<div id="contact-links" class="flex-item-auto bg-midnight mt-2">
 			<div class="flex-row flex-around">
 
-				<div>
-					<a href="#">Github</a>
+				<div class="contact-link">
+					<a href="#"><i class="fab fa-github margin"></i>Github</a>
 				</div>
 
-				<div>
-					<a href="#">Linkedin</a>
+				<div class="contact-link">
+					<a href="#"><i class="fab fa-linkedin margin"></i>Linkedin</a>
 				</div>
 				
 			</div>
