@@ -2,7 +2,7 @@
 	<div class="spaced mt-3 mb-3 ml-5">
 		<div class="flex-row h100">
 			<div class="col-2 pr-4">
-				<h2 class="h-4 subtitle">Who am i ?</h2>
+				<h2 class="h-4 subtitle pl-5">Who am i ?</h2>
 				<p class="h-4 pt-1 justify">
 					Hi! I'm a super friendly guy born to code and to brew coffee (also known as a <span class="text-alizarin">developer</span>).
 					I love discovering new technologies, building secured systems, and contributing to Open Source projects.

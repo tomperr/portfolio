@@ -7,10 +7,29 @@
 
 		<div class="flex-item-fill">
 			<div class="flex-row h100">
-				<div class="col-1 h100">
-					<p>col</p>
+				<div class="col-1">
+					<div id="contact-infos" class="flex-col flex-center h100" align="center">
+						<div class="contact-info flex-item-auto mb-1">
+							<h4 class="contact-info-title h-5">Adresse</h4>
+							<p class="contact-info-description h-6">blablabla</p>
+						</div>
+						<div class="contact-info flex-item-auto mt-1 mb-1">
+							<h4 class="contact-info-title h-5">Email</h4>
+							<p class="contact-info-description h-6">blablabla</p>
+						</div>
+						<div class="contact-info flex-item-auto mt-1 mb-1">
+							<h4 class="contact-info-title h-5">Adresse</h4>
+							<p class="contact-info-description h-6">blablabla</p>
+						</div>
+						<div class="contact-info flex-item-auto mt-1">
+							<h4 class="contact-info-title h-5">Adresse</h4>
+							<p class="contact-info-description h-6">blablabla</p>
+						</div>
+					</div>
 				</div>
+
 				<div class="v-delimiter"></div>
+
 				<div class="col-1 pl-2">
 					<form class="flex-col h100">
 						<div class="form-group-inline flex-item-auto">
