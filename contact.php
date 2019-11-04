@@ -2,35 +2,37 @@
 	<div class="spaced mt-3 mb-3 ml-5 mr-5 flex-col">
 
 		<div class="mb-3 flex-item-auto">
-			<h2 class="subtitle h-4">3615 life</h2>
+			<h2 class="subtitle h-4 pl-5">3615 life</h2>
 		</div>
 
 		<div class="flex-item-fill">
 			<div class="flex-row h100">
-				<div class="col-1">
-					<div id="contact-infos" class="flex-col flex-center h100" align="center">
+				<div class="col-2">
+					<div id="contact-infos" class="flex-col flex-center h100 pl-1">
 						<div class="contact-info flex-item-auto mb-1">
-							<h4 class="contact-info-title h-5">Adresse</h4>
-							<p class="contact-info-description h-6">blablabla</p>
+							<h4 class="contact-info-title h-5"><i class="fas fa-map-marker-alt fa-fw margin"></i>Adresse</h4>
+							<p class="contact-info-description h-6">12 chemin des prés ronds</p>
 						</div>
 						<div class="contact-info flex-item-auto mt-1 mb-1">
-							<h4 class="contact-info-title h-5">Email</h4>
-							<p class="contact-info-description h-6">blablabla</p>
+							<h4 class="contact-info-title h-5"><i class="fas fa-at fa-fw margin"></i>Email</h4>
+							<p class="contact-info-description h-6"><a href="#">perrillatcollomb.tom@gmail.com</a></p>
 						</div>
 						<div class="contact-info flex-item-auto mt-1 mb-1">
-							<h4 class="contact-info-title h-5">Adresse</h4>
-							<p class="contact-info-description h-6">blablabla</p>
+							<h4 class="contact-info-title h-5"><i class="fab fa-linkedin fa-fw margin"></i>Linkedin</h4>
+							<p class="contact-info-description h-6"><a href="#">tom-perrillat-collomb</a></p>
 						</div>
 						<div class="contact-info flex-item-auto mt-1">
-							<h4 class="contact-info-title h-5">Adresse</h4>
-							<p class="contact-info-description h-6">blablabla</p>
+							<h4 class="contact-info-title h-5"><i class="fab fa-github fa-fw margin"></i>Github</h4>
+							<p class="contact-info-description h-6"><a href="#">Yoshinker</a></p>
 						</div>
 					</div>
 				</div>
 
+				<!--
 				<div class="v-delimiter"></div>
+				-->
 
-				<div class="col-1 pl-2">
+				<div class="col-3 pl-2">
 					<form class="flex-col h100">
 						<div class="form-group-inline flex-item-auto">
 							<div class="form-control">
@@ -51,24 +53,10 @@
 							<textarea class="flex-item-fill" name="form_message" id="form_message" placeholder="Hi Tom!"></textarea>
 						</div>
 						<div align="right">
-							<input type="submit" name="send_mail">
+							<input type="submit" name="send_mail"> <!-- need ajax -->
 						</div>
 					</form>
 				</div>
-			</div>
-		</div>
-
-		<div id="contact-links" class="flex-item-auto bg-midnight mt-2">
-			<div class="flex-row flex-around">
-
-				<div class="contact-link">
-					<a href="#"><i class="fab fa-github margin"></i>Github</a>
-				</div>
-
-				<div class="contact-link">
-					<a href="#"><i class="fab fa-linkedin margin"></i>Linkedin</a>
-				</div>
-				
 			</div>
 		</div>
 

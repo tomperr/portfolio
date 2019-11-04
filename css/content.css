@@ -336,3 +336,29 @@
 	background: url('../img/pattern-black.jpg');
 	background-size: cover;
 }
+
+/* MEDIA QUERIES */
+
+/* SKILLS */
+
+@media screen and (max-width: 1400px) {
+	.skill-block {
+		margin-right: 0px !important;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	#skills-bloc > div {
+		flex-direction: column;
+	}
+
+	.skill-block {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+
+	.skill-container {
+		position: initial;
+		bottom: default;
+	}
+}

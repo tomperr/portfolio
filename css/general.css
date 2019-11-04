@@ -20,12 +20,7 @@ main {
 
 .section {
 	width: 100%;
-	height: 100vh;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing:    border-box;
-	-ms-box-sizing:     border-box;
-	-o-box-sizing:      border-box;
-	box-sizing:         border-box;
+	min-height: 100vh;
 	position: relative;
 }
 
@@ -55,6 +50,10 @@ p.justify {
 span.highlight {
 	color: #f1c40f;
 	text-decoration: underline;
+}
+
+.align-left {
+	text-align: left;
 }
 
 .padding {
