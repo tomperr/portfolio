@@ -20,7 +20,8 @@ main {
 
 .section {
 	width: 100%;
-	min-height: 100vh;
+	min-height: auto;
+	display: block;
 	position: relative;
 }
 
@@ -30,7 +31,7 @@ main {
 }
 
 .spaced {
-	position:absolute;
+	/*position:absolute;*/
 	height:auto;
 	bottom:0;
 	top:0;

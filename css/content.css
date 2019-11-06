@@ -104,6 +104,7 @@
 	color: white;
 }
 
+
 .skill-group-title::after {
 	content: "";
 	display: block;
@@ -131,7 +132,7 @@
 .skill-container {
 	display: flex;
 	flex-direction: column;
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0px;
 	width: 100%;
 }
@@ -349,10 +350,14 @@
 
 @media screen and (max-width: 1050px) {
 	#skills-bloc > div {
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 
 	.skill-block {
+		height: auto;
+		flex: 0 0 48%;
+		width: 70%;
 		margin: 0px !important;
 		padding: 0px !important;
 	}
@@ -360,5 +365,46 @@
 	.skill-container {
 		position: initial;
 		bottom: default;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.skill-block {
+		height: auto;
+		flex: 0 0 100%;
+		width: 70%;
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+
+	#skill-block-web {
+		margin-bottom: 40px !important;
+	}
+
+	#skill-block-devops {
+		margin-bottom: 40px !important;
+	}
+
+}
+
+/* MEDIA QUERIES EXPERIENCES */
+
+@media screen and (max-width: 900px) {
+	#experiences-container {
+		flex-direction: column;
+	}
+
+	#experiences-container .v-delimiter {
+		display: none;
+	}
+
+	#studies {
+		margin-right: 0px;
+	}
+
+	#works {
+		margin-left: 0px;
+		margin-top: 20px;
 	}
 }

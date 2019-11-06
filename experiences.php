@@ -6,7 +6,7 @@
 		</div>
 
 		<div class="flex-item-fill">
-			<div class="flex-row h100">
+			<div class="flex-row h100" id="experiences-container">
 				
 				<div class="col-1 mr-1" id="studies">
 					<h3 class="h-2" align="right">Studies</h3>
