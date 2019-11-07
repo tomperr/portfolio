@@ -20,7 +20,7 @@ main {
 
 .section {
 	width: 100%;
-	min-height: auto;
+	min-height: 100vh;
 	display: block;
 	position: relative;
 }

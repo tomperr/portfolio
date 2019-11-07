@@ -16,7 +16,6 @@
 </head>
 <body>
 
-	<!-- php resources -->
 	<?php include_once "lorem.php"; ?>
 
 	<main>
