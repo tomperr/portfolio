@@ -21,8 +21,8 @@ main {
 .section {
 	width: 100%;
 	min-height: 100vh;
-	display: block;
-	position: relative;
+	display: flex;
+	position: relative; 
 }
 
 .v-delimiter {
@@ -31,8 +31,9 @@ main {
 }
 
 .spaced {
-	/*position:absolute;*/
-	height:auto;
+	display: block;
+	min-height: 100%;
+	width: 100%;
 	bottom:0;
 	top:0;
 	left:0;
