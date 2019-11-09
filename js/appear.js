@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	window.addEventListener("scroll", function() {
 		subtitles_appear();
 		skillbar_appear();
+		lovedtechs_appear();
 	})
 
 });
@@ -24,6 +25,15 @@ function subtitles_appear() {
 	for (let s of subtitles) {
 		if (isElementInViewport(s) && s.classList.contains("hidden")) {
 			s.classList.remove('hidden');
+		}
+	}
+}
+
+function lovedtechs_appear() {
+	let techs = document.querySelectorAll('.lovedtech');
+	for (let t of techs) {
+		if (isElementInViewport(t) && t.classList.contains("hidden")) {
+			t.classList.remove('hidden');
 		}
 	}
 }

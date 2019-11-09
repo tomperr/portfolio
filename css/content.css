@@ -100,6 +100,19 @@
 	}
 }
 
+.lovedtech {
+	position: relative;
+	top: 0px;
+	transition: 0.5s all ease;
+}
+
+.lovedtech.hidden {
+	background-color: transparent;
+	position: relative;
+	top: -10px;
+	color: transparent;
+}
+
 /* SKILLS */
 
 .section#skills {

@@ -12,16 +12,16 @@
 				</p>
 				<h2>I love</h2>
 				<div class="inline-block">
-					<div class="inline-block bg-emerald padding margin h-5">
+					<div class="inline-block bg-emerald padding margin h-5 lovedtech hidden">
 						Cybersecurity
 					</div>
-					<div class="inline-block bg-alizarin padding margin h-5">
+					<div class="inline-block bg-alizarin padding margin h-5 lovedtech hidden">
 						Artificial intelligence
 					</div>
-					<div class="inline-block bg-river padding margin h-5">
+					<div class="inline-block bg-river padding margin h-5 lovedtech hidden">
 						Algorithms
 					</div>
-					<div class="inline-block bg-sun padding margin h-5">
+					<div class="inline-block bg-sun padding margin h-5 lovedtech hidden">
 						Optimisation
 					</div>
 				</div>
