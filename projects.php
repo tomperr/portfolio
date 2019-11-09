@@ -2,7 +2,7 @@
 	<div class="spaced">
 		<div class="flex-col h100">
 			<div class="titles flex-item-auto">
-				<h2 class="subtitle h-4 pl-5">PROJECTS</h2>
+				<h2 class="subtitle hidden h-4 pl-5">PROJECTS</h2>
 			</div>
 			<div id="projects_container" class="flex-item-auto mt-3">
 				<div class="flex-row h100 flex-between">

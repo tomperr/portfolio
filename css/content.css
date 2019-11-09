@@ -73,6 +73,13 @@
 	padding-bottom: 10px;
 	padding-right: 10px;
 	color: white;
+	transition: 0.5s all ease;
+}
+
+.subtitle.hidden {
+	width: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 #about {

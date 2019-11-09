@@ -2,7 +2,7 @@
 	<div class="spaced flex-col">
 
 		<div class="mb-3 flex-item-auto">
-			<h2 class="subtitle h-4 pl-5">3615 life</h2>
+			<h2 class="subtitle hidden h-4 pl-5">3615 life</h2>
 		</div>
 
 		<div class="flex-item-fill">

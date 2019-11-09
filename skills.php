@@ -2,7 +2,7 @@
 	<div class="spaced flex-col">
 
 		<div id="skills-title" class="mb-3">
-			<h2 class="subtitle h-4 pl-5">My skills</h2>
+			<h2 class="subtitle hidden h-4 pl-5">My skills</h2>
 		</div>
 
 		<div id="skills-bloc">
