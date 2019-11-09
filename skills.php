@@ -19,7 +19,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">HTML/CSS</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -28,7 +28,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">PHP</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -37,7 +37,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">JS</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -50,7 +50,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Wordpress</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -59,7 +59,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Woocommerce</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -81,7 +81,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Unix</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -90,7 +90,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Windows</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -103,7 +103,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">C, C#, C++</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -112,7 +112,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Java</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -125,7 +125,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">SQL</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -134,7 +134,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">PLSQL</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -156,7 +156,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">AGILE</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(31, 149, 81)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(31, 149, 81)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -165,7 +165,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">MERISE</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(31, 149, 81)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(31, 149, 81)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
@@ -174,7 +174,7 @@
 									<div class="skillbar-title" align="center">
 										<span class="h-6">UML</span>
 									</div>
-									<div class="skillbar-bar" style="background-color: rgb(31, 149, 81)"></div>
+									<div class="skillbar-bar hidden" style="background-color: rgb(31, 149, 81)"></div>
 									<div class="skill-bar-percent">
 										<p class="h-6"></p>
 									</div>
