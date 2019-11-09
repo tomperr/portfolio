@@ -1,5 +1,5 @@
 <div class="section" id="skills">
-	<div class="spaced pt-3 pl-5 pr-5 flex-col">
+	<div class="spaced flex-col">
 
 		<div id="skills-title" class="mb-3">
 			<h2 class="subtitle h-4 pl-5">My skills</h2>

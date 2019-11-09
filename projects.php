@@ -1,28 +1,28 @@
 <div class="section" id="projects">
-	<div class="spaced pt-3 pb-3 pl-5 pr-5">
+	<div class="spaced">
 		<div class="flex-col h100">
 			<div class="titles flex-item-auto">
 				<h2 class="subtitle h-4 pl-5">PROJECTS</h2>
 			</div>
 			<div id="projects_container" class="flex-item-auto mt-3">
 				<div class="flex-row h100 flex-between">
-					<div class="col-1 p-1" align="center">
+					<div class="col-1 p-1 col-project" align="center">
 						<h5>Velore</h5>
 						<div data-p_id='1' class="project" id="project-velore"></div>
 					</div>
-					<div class="col-1 p-1" align="center">
+					<div class="col-1 p-1 col-project" align="center">
 						<h5>Super Fire Mega Lazer</h5>
 						<div data-p_id='2' class="project" id="project-sfml"></div>
 					</div>
-					<div class="col-1 p-1" align="center">
+					<div class="col-1 p-1 col-project" align="center">
 						<h5>Not An Asset Store Dungeon</h5>
 						<div data-p_id='3' class="project active" id="project-unity"></div>
 					</div>
-					<div class="col-1 p-1" align="center">
+					<div class="col-1 p-1 col-project" align="center">
 						<h5>42 Blog</h5>
 						<div data-p_id='4' class="project" id="project-blog"></div>
 					</div>
-					<div class="col-1 p-1" align="center">
+					<div class="col-1 p-1 col-project" align="center">
 						<h5>Kroon</h5>
 						<div data-p_id='5' class="project"  id="project-kroon"></div>
 					</div>

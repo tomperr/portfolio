@@ -1,5 +1,5 @@
 <div class="section" id="about">
-	<div class="spaced pt-3 pb-3 pl-5">
+	<div class="spaced">
 		<div class="flex-row h100">
 			<div class="col-2 pr-4">
 				<h2 class="h-4 subtitle pl-5">Who am i ?</h2>

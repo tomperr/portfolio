@@ -1,39 +1,39 @@
 <div id="contact" class="section">
-	<div class="spaced pt-3 pb-3 pl-5 pr-5 flex-col">
+	<div class="spaced flex-col">
 
 		<div class="mb-3 flex-item-auto">
 			<h2 class="subtitle h-4 pl-5">3615 life</h2>
 		</div>
 
 		<div class="flex-item-fill">
-			<div class="flex-row h100">
+			<div class="flex-row h100" id="contact-flex">
 				<div class="col-2">
 					<div id="contact-infos" class="flex-col flex-center h100 pl-1">
 						<div class="contact-info flex-item-auto mb-1">
-							<h4 class="contact-info-title h-5"><i class="fas fa-map-marker-alt fa-fw margin"></i>Adresse</h4>
-							<p class="contact-info-description h-6">12 chemin des prés ronds</p>
+							<h4 class="contact-info-title h-4"><i class="fas fa-map-marker-alt fa-fw margin"></i>Adresse</h4>
+							<p class="contact-info-description h-5">12 chemin des prés ronds</p>
 						</div>
 						<div class="contact-info flex-item-auto mt-1 mb-1">
-							<h4 class="contact-info-title h-5"><i class="fas fa-at fa-fw margin"></i>Email</h4>
-							<p class="contact-info-description h-6"><a href="#">perrillatcollomb.tom@gmail.com</a></p>
+							<h4 class="contact-info-title h-4"><i class="fas fa-at fa-fw margin"></i>Email</h4>
+							<p class="contact-info-description h-5"><a href="#">perrillatcollomb.tom@gmail.com</a></p>
 						</div>
 						<div class="contact-info flex-item-auto mt-1 mb-1">
-							<h4 class="contact-info-title h-5"><i class="fab fa-linkedin fa-fw margin"></i>Linkedin</h4>
-							<p class="contact-info-description h-6"><a href="#">tom-perrillat-collomb</a></p>
+							<h4 class="contact-info-title h-4"><i class="fab fa-linkedin fa-fw margin"></i>Linkedin</h4>
+							<p class="contact-info-description h-5"><a href="#">tom-perrillat-collomb</a></p>
 						</div>
 						<div class="contact-info flex-item-auto mt-1">
-							<h4 class="contact-info-title h-5"><i class="fab fa-github fa-fw margin"></i>Github</h4>
-							<p class="contact-info-description h-6"><a href="#">Yoshinker</a></p>
+							<h4 class="contact-info-title h-4"><i class="fab fa-github fa-fw margin"></i>Github</h4>
+							<p class="contact-info-description h-5"><a href="#">Yoshinker</a></p>
 						</div>
 					</div>
 				</div>
 
 				<!--
 				<div class="v-delimiter"></div>
-				-->
+			-->
 
-				<div class="col-3 pl-2">
-					<form class="flex-col h100">
+				<div class="col-3">
+					<form class="flex-col h100 pl-2" id="contact-form">
 						<div class="form-group-inline flex-item-auto">
 							<div class="form-control">
 								<label for="form_firstname">Firstname</label>

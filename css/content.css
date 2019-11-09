@@ -340,6 +340,10 @@
 	background-size: cover;
 }
 
+#contact-form {
+	padding-right: 1em;
+}
+
 /* MEDIA QUERIES */
 
 /* SKILLS */
@@ -428,6 +432,10 @@
 	#projects_container > .flex-row > .col-1 { 
 		flex: 0 0 25%;
 	}
+
+	.col-project {
+		margin-bottom: 15px;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -441,5 +449,35 @@
 	#projects_container > .flex-row > .col-1 { 
 		flex: 0 0 40%;
 	}
+
+}
+
+/* MEDIA QUERIES CONTACT */
+
+@media screen and (max-width: 1000px) {
+	#contact-flex {
+		flex-direction: column-reverse;
+	}
+
+	#contact-infos {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.contact-info {
+		flex: 1 0 40%;
+		margin: 0px;
+	}
+
+	#contact-form, #contact-infos {
+		padding: 0px;
+	}
+
+	#contact-form {
+		padding-right: 1em;
+	}
+}
+
+@media screen and and (max-width: 600px) {
 
 }

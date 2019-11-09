@@ -1,5 +1,5 @@
 <div class="section" id="experiences">
-	<div class="spaced pt-3 pb-3 pl-5 pr-5 flex-col">
+	<div class="spaced flex-col">
 
 		<div class="mb-3 flex-item-auto">
 			<h2 class="subtitle h-4 pl-5">3615 life</h2>
@@ -14,16 +14,16 @@
 						<div class="study">
 							<div class="study-title">
 								<h4 class="study-name h-4">DUT INFO</h4>
-								<p class="study-date h-5">2018 -> now</p>
+								<p class="study-date h-4">2018 -> now</p>
 							</div>
-							<p class="study-description h-6 justify mt-1"><?php echo Lorem::ipsum(1) ?></p>
+							<p class="study-description h-5 justify mt-1"><?php echo Lorem::ipsum(1) ?></p>
 						</div>
 						<div class="study mt-1">
 							<div class="study-title">
 								<h4 class="study-name h-4">Lycée</h4>
-								<p class="study-date h-5">2015 -> 2018</p>
+								<p class="study-date h-4">2015 -> 2018</p>
 							</div>
-							<p class="study-description h-6 justify mt-1"><?php echo Lorem::ipsum(1) ?></p>
+							<p class="study-description h-5 justify mt-1"><?php echo Lorem::ipsum(1) ?></p>
 						</div>
 					</div>
 				</div>
@@ -35,16 +35,16 @@
 					<div class="work">
 						<div class="work-title">
 							<h4 class="work-name h-4">Freelance</h4>
-							<p class="work-date h-5">2018 -> now</p>
+							<p class="work-date h-4">2018 -> now</p>
 						</div>
-						<p class="work-description h-6 justify mt-1"><?php echo Lorem::ipsum(1) ?></p>
+						<p class="work-description h-5 justify mt-1"><?php echo Lorem::ipsum(1) ?></p>
 					</div>
 					<div class="work mt-1">
 						<div class="work-title">
 							<h4 class="work-name h-4">Project</h4>
-							<p class="work-date h-5">2015 -> 2018</p>
+							<p class="work-date h-4">2015 -> 2018</p>
 						</div>
-						<p class="work-description h-6 justify mt-1"><?php echo Lorem::ipsum(1) ?></p>
+						<p class="work-description h-5 justify mt-1"><?php echo Lorem::ipsum(1) ?></p>
 					</div>					
 				</div>
 
