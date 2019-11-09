@@ -123,33 +123,33 @@
 						<div id="projects-buttons" class="flex-col flex-end">
 							<div data-p_id="1" class="project-buttons" align="right">
 								<div>
-									<a href="#" class="btn btn-primary">Code</a>
+									<a href="https://github.com/Yoshinker/velore" class="btn btn-primary" target="_blank">Code</a>
 								</div>
 							</div>
 							<div data-p_id="2" class="project-buttons" align="right">
 								<div>
-									<a href="#" class="btn btn-primary">Code</a>
+									<a href="https://github.com/Yoshinker/SuperFireMegaLazer" class="btn btn-primary" target="_blank">Code</a>
 								</div>
 								<div class="mt-1">
-									<a href="#" class="btn btn-danger">Download</a>
+									<a href="https://github.com/Yoshinker/SuperFireMegaLazer/releases/tag/final" class="btn btn-danger" target="_blank">Download</a>
 								</div>
 							</div>
 							<div data-p_id="3" class="project-buttons active" align="right">
 								<div>
-									<a href="#" class="btn btn-primary">Code</a>
+									<a href="https://github.com/Yoshinker/not_an_asset_store_dungeon" class="btn btn-primary" target="_blank">Code</a>
 								</div>
 								<div class="mt-1">
-									<a href="#" class="btn btn-danger">Download</a>
+									<a href="https://github.com/Yoshinker/not_an_asset_store_dungeon/releases/tag/final" class="btn btn-danger" target="_blank">Download</a>
 								</div>
 							</div>
 							<div data-p_id="4" class="project-buttons" align="right">
 								<div>
-									<a href="#" class="btn btn-primary">Code</a>
+									<a href="https://github.com/Yoshinker/blog" class="btn btn-primary" target="_blank">Code</a>
 								</div>
 							</div>
 							<div data-p_id="5" class="project-buttons" align="right">
 								<div>
-									<a href="#" class="btn btn-primary">Code</a>
+									<a href="https://github.com/Yoshinker/kroon" class="btn btn-primary" target="_blank">Code</a>
 								</div>
 							</div>
 						</div>

@@ -38,15 +38,18 @@
 							<div class="form-control">
 								<label for="form_firstname">Firstname</label>
 								<input type="text" name="form_firstname" id="form_firstname" placeholder="Bruce">
+								<span class="focus-border"></span>
 							</div>
 							<div class="form-control">
 								<label for="form_lastname">Lastname</label>
 								<input type="text" name="form_lastname" id="form_lastname" placeholder="Wayne">
+								<span class="focus-border"></span>
 							</div>
 						</div>
 						<div class="form-control flex-item-auto">
 							<label for="form_email">Email</label>
 							<input type="text" name="form_email" id="form_email" placeholder="bruce@wayne.com">
+							<span class="focus-border"></span>
 						</div>
 						<div class="form-control flex-item-fill">
 							<label for="form_message">Message</label>
