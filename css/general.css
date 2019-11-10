@@ -292,11 +292,17 @@ form {
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	width: 100%;
+	border: 2px solid #E1E1E1;
+	transition: 0.5s all ease;
 }
 
-input[type="text"], textarea {
+.form-control > input[type="text"], .form-control > textarea {
 	padding-left: 0.5em;
 	font-size: 1.5em;
+}
+
+.form-control > input:hover, .form-control > textarea:hover {
+	border-color: #AAAAAA;
 }
 
 .focus-border {
@@ -309,21 +315,25 @@ input[type="text"], textarea {
 	transition: 0.4s;
 }
 
-input[type="text"]:focus ~ .focus-border{
+.form-control > input[type="text"]:focus ~ .focus-border{
 	width: 100%;
 	transition: 0.4s;
 }
 
-input[type="text"] {
+.form-control > input[type="text"] {
 	height: 1.5em;
 }
 
-textarea {
+.form-control > textarea {
 	padding-top: 0.2em;
 	resize: none;
 }
 
-input::placeholder, textarea::placeholder {
+.form-control > textarea:focus {
+	border-color: #3399FF;
+}
+
+.form-control > input::placeholder, .form-control > textarea::placeholder {
 	color: rgb(120,120,120);
 }
 
@@ -334,6 +344,13 @@ input[type="submit"] {
 	font-size: 1.5em;
 	border: 3px solid #3498db;
 	padding: 0px 0.5em;
+	transition: 0.5s all ease;
+}
+
+input[type="submit"]:hover {
+	border-color: #2570a2;
+	background-color: #2570a2;
+	cursor: pointer;
 }
 
 /* CONTACT LINKS */
