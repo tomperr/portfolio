@@ -2,7 +2,7 @@
 	<div class="spaced">
 		<div class="flex-row h100">
 			<div class="col-2 pr-4">
-				<h2 class="h-4 subtitle hidden pl-5">Who am i ?</h2>
+				<h2 class="h-4 subtitle animate expand pl-5">Who am i ?</h2>
 				<p class="h-4 pt-1 justify">
 					Hi! I'm a super friendly guy born to code and to brew coffee (also known as a <span class="text-alizarin">developer</span>).
 					I love discovering new technologies, building secured systems, and contributing to Open Source projects.
@@ -12,16 +12,16 @@
 				</p>
 				<h2>I love</h2>
 				<div class="inline-block">
-					<div class="inline-block bg-emerald padding margin h-5 lovedtech hidden">
+					<div class="inline-block bg-emerald padding margin h-5 lovedtech animate fade-in-top">
 						Cybersecurity
 					</div>
-					<div class="inline-block bg-alizarin padding margin h-5 lovedtech hidden">
+					<div class="inline-block bg-alizarin padding margin h-5 lovedtech animate fade-in-top">
 						Artificial intelligence
 					</div>
-					<div class="inline-block bg-river padding margin h-5 lovedtech hidden">
+					<div class="inline-block bg-river padding margin h-5 lovedtech animate fade-in-top">
 						Algorithms
 					</div>
-					<div class="inline-block bg-sun padding margin h-5 lovedtech hidden">
+					<div class="inline-block bg-sun padding margin h-5 lovedtech animate fade-in-top">
 						Optimisation
 					</div>
 				</div>

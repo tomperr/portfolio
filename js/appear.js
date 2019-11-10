@@ -1,41 +1,40 @@
 document.addEventListener("DOMContentLoaded", function() {
 
+	animate();
+
 	window.addEventListener("scroll", function() {
-		subtitles_appear();
-		skillbar_appear();
-		lovedtechs_appear();
+		animate();
 	})
 
 });
 
-function skillbar_appear() {
-	let skillbars = document.querySelectorAll(".skillbar");
-	for (let b of skillbars) {
-		let bar = b.querySelector(".skillbar-bar");
-		if (isElementInViewport(bar) && bar.classList.contains("hidden")) {
-			let percentage = b.dataset.percent;
-			bar.style.width = percentage;
-			bar.classList.remove("hidden");
+function animate() {
+	let elements = document.querySelectorAll(".animate");
+	for (let e of elements) {
+		if (isElementInViewport(e)) {
+
+			e.classList.remove("fade-in-left");
+			e.classList.remove("fade-in-right");
+			e.classList.remove("fade-in-top");
+			e.classList.remove("fade-in-bottom");
+
+			e.classList.remove("slide-left");
+			e.classList.remove("slide-right");
+			e.classList.remove("slide-top");
+			e.classList.remove("slide-bottom");
+
+			e.classList.remove("expand");
+
+			if (e.classList.contains("skillbar-bar")) {
+				skillbar_appear(e);
+			}
 		}
 	}
 }
 
-function subtitles_appear() {
-	let subtitles = document.querySelectorAll('.subtitle');
-	for (let s of subtitles) {
-		if (isElementInViewport(s) && s.classList.contains("hidden")) {
-			s.classList.remove('hidden');
-		}
-	}
-}
-
-function lovedtechs_appear() {
-	let techs = document.querySelectorAll('.lovedtech');
-	for (let t of techs) {
-		if (isElementInViewport(t) && t.classList.contains("hidden")) {
-			t.classList.remove('hidden');
-		}
-	}
+function skillbar_appear(e) {
+	let percentage = e.dataset.percent;
+	e.style.width = percentage;
 }
 
 function isElementInViewport (el) {

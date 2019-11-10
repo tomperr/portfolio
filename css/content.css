@@ -76,12 +76,6 @@
 	transition: 0.5s all ease;
 }
 
-.subtitle.hidden {
-	width: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
 #about {
 	background: url('../img/pattern-black.jpg');
 	background-size: cover;
@@ -104,13 +98,6 @@
 	position: relative;
 	top: 0px;
 	transition: 0.5s all ease;
-}
-
-.lovedtech.hidden {
-	background-color: transparent;
-	position: relative;
-	top: -10px;
-	color: transparent;
 }
 
 /* SKILLS */
@@ -220,10 +207,6 @@
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 	transition: 0.5s all ease;
-}
-
-.skillbar-bar.hidden {
-	width:0px !important;
 }
 
 .skill-bar-percent {
@@ -370,6 +353,10 @@
 
 #contact-form {
 	padding-right: 1em;
+}
+
+.contact-info {
+	transition: 0.5s all ease;
 }
 
 /* MEDIA QUERIES */
