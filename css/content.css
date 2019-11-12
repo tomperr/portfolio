@@ -31,17 +31,18 @@
 	background: url('../img/bg.jpg');
 	background-size: cover;
 	background-position: center;
-	text-align: center;
+	justify-content: center;
 }
 
 #titles {
 	display: inline-block;
 
 	position: relative;
-	top: 60%;
+	top: 60vh;
 	z-index: 2;
 
 	color: white;
+	text-align: center;
 }
 
 #titles h1 {
