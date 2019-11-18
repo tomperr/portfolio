@@ -93,6 +93,10 @@
 	#about-img {
 		display: none;
 	}
+
+	#about-description {
+		padding-right: 1.5em;
+	}
 }
 
 .lovedtech {
@@ -233,10 +237,26 @@
 }
 
 .study-date, .work-date {
-	position: absolute;
-	right: 0px;
-	top: 8px;
+	
+}
+
+.study-title-container > h3, .work-title-container > h3 {
+	display: inline-block;
+	color: white;
+	min-width: 4em;
+}
+
+.study-title-container {
 	text-align: right;
+}
+
+.work-title-container {
+	text-align: left;
+}
+
+.date-container {
+	align-items: center;
+  	justify-content: flex-end;
 }
 
 .study-title::after, .work-title::after {

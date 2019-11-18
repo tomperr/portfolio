@@ -1,7 +1,7 @@
 <div class="section" id="about">
 	<div class="spaced">
 		<div class="flex-row h100">
-			<div class="col-2 pr-4">
+			<div class="col-2 pr-4" id="about-description">
 				<h2 class="h-4 subtitle animate expand pl-5">Who am i ?</h2>
 				<p class="h-4 pt-1 justify">
 					Hi! I'm a super friendly guy born to code and to brew coffee (also known as a <span class="text-alizarin">developer</span>).

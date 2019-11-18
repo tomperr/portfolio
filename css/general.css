@@ -157,6 +157,10 @@ span.highlight {
 	flex: 3;
 }
 
+.col-4 {
+	flex: 4;
+}
+
 .flex-grow {
 	flex-grow: 1;
 }
@@ -253,6 +257,10 @@ a.btn.btn-success {
 a.btn.btn-danger {
 	background-color: #e74c3c;;
 	color: white;
+}
+
+p > a {
+	color: #3498db;
 }
 
 /* FORM */

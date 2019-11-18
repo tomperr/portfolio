@@ -15,15 +15,15 @@
 						</div>
 						<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
 							<h4 class="contact-info-title h-4"><i class="fas fa-at fa-fw margin"></i>Email</h4>
-							<p class="contact-info-description h-5"><a href="#">perrillatcollomb.tom@gmail.com</a></p>
+							<p class="contact-info-description h-5">perrillatcollomb.tom@gmail.com</p>
 						</div>
 						<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
 							<h4 class="contact-info-title h-4"><i class="fab fa-linkedin fa-fw margin"></i>Linkedin</h4>
-							<p class="contact-info-description h-5"><a href="#">tom-perrillat-collomb</a></p>
+							<p class="contact-info-description h-5"><a href="https://www.linkedin.com/in/tom-perrillat-collomb-81b698182/">tom-perrillat-collomb</a></p>
 						</div>
 						<div class="contact-info animate fade-in-left flex-item-auto mt-1">
 							<h4 class="contact-info-title h-4"><i class="fab fa-github fa-fw margin"></i>Github</h4>
-							<p class="contact-info-description h-5"><a href="#">Yoshinker</a></p>
+							<p class="contact-info-description h-5"><a href="https://github.com/Yoshinker">Yoshinker</a></p>
 						</div>
 					</div>
 				</div>
