@@ -236,8 +236,9 @@
 	position: relative;
 }
 
-.study-date, .work-date {
-	
+#experiences-container img {
+	width: 100%;
+	height: auto;
 }
 
 .study-title-container > h3, .work-title-container > h3 {
@@ -254,7 +255,7 @@
 	text-align: left;
 }
 
-.date-container {
+.date-container, .logo-container {
 	align-items: center;
   	justify-content: flex-end;
 }

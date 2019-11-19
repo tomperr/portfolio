@@ -10,10 +10,10 @@
 				
 				<div class="col-1 mr-1" id="studies">
 					<div class="study-title-container mb-2" align="right">
-						<h3 class="h-3 padding bg-river" align="right">Studies</h3>
+						<h3 class="h-3 padding bg-river animate expand" align="right">Studies</h3>
 					</div>
 					<div id="studies-block">
-						<div class="study">
+						<div class="study animate fade-in-left">
 							<div class="study-title flex-row">
 								<div class="flex-col col-3">
 									<h4 class="study-name h-4">2-year university diploma in computer science</h4>
@@ -23,12 +23,18 @@
 									<p class="study-date h-5">2018 -> now</p>								
 								</div>
 							</div>
-							<p class="study-description h-5 justify mt-1">
-								Currently in second year. I'm learning computer science, especially web and software development.<br />
-								We are also focusing on applications conception, algorithms, network, management...
-							</p>
+							<div class="flex-row mt-1">
+								<p class="study-description h-5 justify col-3">
+									Currently in second year. I'm learning computer science, especially web and software development.<br />
+									We are also focusing on applications conception, algorithms, network, management...
+								</p>
+								<div class="flex col-1 logo-container pl-1">
+									<img src="img/univ_logo.png" class="animate fade-in-right">
+								</div>
+							</div>
+							
 						</div>
-						<div class="study mt-1">
+						<div class="study animate fade-in-left mt-1">
 							<div class="study-title flex-row">
 								<div class="flex-col col-3">
 									<h4 class="study-name h-4">High School diploma specialized in sciences</h4>
@@ -38,10 +44,15 @@
 									<p class="study-date h-5">2015 -> 2018</p>
 								</div>
 							</div>
-							<p class="study-description h-5 justify mt-1">
-								Discovering programmation (using Java environment) for graduation project Kroon (see below).
-								French Baccalaureate S with honors.
-							</p>
+							<div class="flex-row mt-1">
+								<p class="study-description h-5 justify col-3">
+									Discovering programmation (using Java environment) for graduation project Kroon (see below).
+									French Baccalaureate S with honors.
+								</p>
+								<div class="flex col-1 logo-container pl-1">
+									<img src="img/logo_academie-grenoble.png" class="animate fade-in-right">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -50,23 +61,9 @@
 
 				<div class="col-1 ml-1" id="works">
 					<div class="work-title-container mb-2" align="right">
-						<h3 class="h-3 padding bg-alizarin">PRO</h3>
+						<h3 class="h-3 padding bg-alizarin animate expand">PRO</h3>
 					</div>
-					<div class="work">
-						<div class="work-title flex-row">
-							<div class="col-3">
-								<h4 class="work-name h-4">Freelance Web Developer</h4>								
-							</div>
-							<div class="flex date-container col-1">
-								<p class="work-date h-5">2018 -> now</p>
-							</div>
-						</div>
-						<p class="work-description h-5 justify mt-1">
-							Making websites for private individuals and companies. I fully manage projects, from customer relationship management to production launch.<br /><br />
-							Last customer: <a href="http://polnets.com/">Polnets</a>, for a international showcase site presenting its products.<br />
-						</p>
-					</div>
-					<div class="work mt-1">
+					<div class="work animate fade-in-right">
 						<div class="work-title flex-row">
 							<div class="col-3">
 								<h4 class="work-name h-4">Annecy Volleyball</h4>								
@@ -75,12 +72,36 @@
 								<p class="work-date h-5">2019 -> 2020</p>
 							</div>
 						</div>
-						<p class="work-description h-5 justify mt-1">
-							
-						</p>
-					</div>					
+						<div class="flex-row mt-1">
+							<p class="work-description h-5 justify col-3">
+								University project mentored by University of Savoy. In group, we're making a website and a desktop application to manage european volleyball tournement in Annecy<br />
+								As a project manager, I'm responsible for the organisation of the team work, and I make sure the development meets the requirements.
+							</p>
+							<div class="flex col-1 logo-container pl-1">
+								<img src="img/annecy_volleyball.jpg" class="animate fade-in-right">
+							</div>
+						</div>
+					</div>	
+					<div class="work animate fade-in-right mt-1">
+						<div class="work-title flex-row">
+							<div class="col-3">
+								<h4 class="work-name h-4">Freelance Web Developer</h4>								
+							</div>
+							<div class="flex date-container col-1">
+								<p class="work-date h-5">2018 -> now</p>
+							</div>
+						</div>
+						<div class="flex-row mt-1">
+							<p class="work-description h-5 justify col-3">
+								Making websites for private individuals and companies. I fully manage projects, from customer relationship management to production launch.<br /><br />
+								Last customer: <a href="http://polnets.com/">Polnets</a>, for a international showcase site presenting its products.<br />
+							</p>
+							<div class="flex col-1 logo-container pl-1" class="animate fade-in-right">
+								<img src="">
+							</div>
+						</div>
+					</div>						
 				</div>
-
 			</div>
 		</div>
 
