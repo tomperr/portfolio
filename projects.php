@@ -7,23 +7,23 @@
 			<div id="projects_container" class="flex-item-auto mt-3">
 				<div class="flex-row h100 flex-between">
 					<div class="col-1 p-1 col-project" align="center">
-						<h5>Velore</h5>
+						<h5 class="h-6">Velore</h5>
 						<div data-p_id='1' class="project" id="project-velore"></div>
 					</div>
 					<div class="col-1 p-1 col-project" align="center">
-						<h5>Super Fire Mega Lazer</h5>
+						<h5 class="h-6">Super Fire Mega Lazer</h5>
 						<div data-p_id='2' class="project" id="project-sfml"></div>
 					</div>
 					<div class="col-1 p-1 col-project" align="center">
-						<h5>Not An Asset Store Dungeon</h5>
+						<h5 class="h-6">Not An Asset Store Dungeon</h5>
 						<div data-p_id='3' class="project active" id="project-unity"></div>
 					</div>
 					<div class="col-1 p-1 col-project" align="center">
-						<h5>42 Blog</h5>
+						<h5 class="h-6">42 Blog</h5>
 						<div data-p_id='4' class="project" id="project-blog"></div>
 					</div>
 					<div class="col-1 p-1 col-project" align="center">
-						<h5>Kroon</h5>
+						<h5 class="h-6">Kroon</h5>
 						<div data-p_id='5' class="project"  id="project-kroon"></div>
 					</div>
 				</div>

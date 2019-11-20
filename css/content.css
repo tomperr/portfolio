@@ -31,17 +31,18 @@
 	background: url('../img/bg.jpg');
 	background-size: cover;
 	background-position: center;
-	text-align: center;
+	justify-content: center;
 }
 
 #titles {
 	display: inline-block;
 
 	position: relative;
-	top: 60%;
+	top: 60vh;
 	z-index: 2;
 
 	color: white;
+	text-align: center;
 }
 
 #titles h1 {
@@ -91,6 +92,10 @@
 @media screen and (max-width: 1000px) {
 	#about-img {
 		display: none;
+	}
+
+	#about-description {
+		padding-right: 1.5em;
 	}
 }
 
@@ -231,11 +236,28 @@
 	position: relative;
 }
 
-.study-date, .work-date {
-	position: absolute;
-	right: 0px;
-	top: 8px;
+#experiences-container img {
+	width: 100%;
+	height: auto;
+}
+
+.study-title-container > h3, .work-title-container > h3 {
+	display: inline-block;
+	color: white;
+	min-width: 4em;
+}
+
+.study-title-container {
 	text-align: right;
+}
+
+.work-title-container {
+	text-align: left;
+}
+
+.date-container, .logo-container {
+	align-items: center;
+  	justify-content: flex-end;
 }
 
 .study-title::after, .work-title::after {
