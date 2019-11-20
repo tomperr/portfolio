@@ -404,3 +404,7 @@ input[type="submit"]:hover {
 	opacity: 1;
 	transition: 0.5s all ease;
 }
+
+.delay {
+	animation-delay: 2s;
+}
