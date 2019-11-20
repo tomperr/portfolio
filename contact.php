@@ -23,7 +23,7 @@
 						</div>
 						<div class="contact-info animate fade-in-left flex-item-auto mt-1">
 							<h4 class="contact-info-title h-4"><i class="fab fa-github fa-fw margin"></i>Github</h4>
-							<p class="contact-info-description h-5"><a href="https://github.com/Yoshinker">Yoshinker</a></p>
+							<p class="contact-info-description h-5"><a href="https://github.com/tomperr">tomperr</a></p>
 						</div>
 					</div>
 				</div>
