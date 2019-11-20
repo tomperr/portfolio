@@ -8,25 +8,25 @@
 		<div class="flex-item-fill">
 			<div class="flex-row h100" id="experiences-container">
 				
-				<div class="col-1 mr-1" id="studies">
+				<div class="col-1 mr-2" id="studies">
 					<div class="study-title-container mb-2" align="right">
-						<h3 class="h-3 padding bg-river animate expand" align="right">Studies</h3>
+						<h3 class="h-4 padding bg-river animate expand" align="right">Studies</h3>
 					</div>
 					<div id="studies-block">
 						<div class="study animate fade-in-left">
 							<div class="study-title flex-row">
 								<div class="flex-col col-3">
 									<h4 class="study-name h-4">2-year university diploma in computer science</h4>
-									<h4 class="study-location">University of Savoy / IUT Annecy – Annecy-le-Vieux, France</h4>
+									<h4 class="study-location h-6">University of Savoy / IUT Annecy – Annecy-le-Vieux, France</h4>
 								</div>
 								<div class="flex date-container col-1">
 									<p class="study-date h-5">2018 -> now</p>								
 								</div>
 							</div>
 							<div class="flex-row mt-1">
-								<p class="study-description h-5 justify col-3">
+								<p class="study-description h-6 justify col-3">
 									Currently in second year. I'm learning computer science, especially web and software development.<br />
-									We are also focusing on applications conception, algorithms, network, management...
+									We are also focusing on applications conception, algorithms, network, management... cool stuff!
 								</p>
 								<div class="flex col-1 logo-container pl-1">
 									<img src="img/univ_logo.png" class="animate fade-in-right">
@@ -38,14 +38,14 @@
 							<div class="study-title flex-row">
 								<div class="flex-col col-3">
 									<h4 class="study-name h-4">High School diploma specialized in sciences</h4>
-									<h4 class="study-location">Baudelaire High School, Cran-Gevrier, France</h4>
+									<h4 class="study-location h-6">Baudelaire High School, Cran-Gevrier, France</h4>
 								</div>
 								<div class="flex date-container col-1">
 									<p class="study-date h-5">2015 -> 2018</p>
 								</div>
 							</div>
 							<div class="flex-row mt-1">
-								<p class="study-description h-5 justify col-3">
+								<p class="study-description h-6 justify col-3">
 									Discovering programmation (using Java environment) for graduation project Kroon (see below).
 									French Baccalaureate S with honors.
 								</p>
@@ -57,11 +57,11 @@
 					</div>
 				</div>
 
-				<div class="v-delimiter"></div>
+				<!--<div class="v-delimiter"></div>-->
 
-				<div class="col-1 ml-1" id="works">
+				<div class="col-1 ml-2" id="works">
 					<div class="work-title-container mb-2" align="right">
-						<h3 class="h-3 padding bg-alizarin animate expand">PRO</h3>
+						<h3 class="h-4 padding bg-alizarin animate expand">PRO</h3>
 					</div>
 					<div class="work animate fade-in-right">
 						<div class="work-title flex-row">
@@ -73,7 +73,7 @@
 							</div>
 						</div>
 						<div class="flex-row mt-1">
-							<p class="work-description h-5 justify col-3">
+							<p class="work-description h-6 justify col-3">
 								University project mentored by University of Savoy. In group, we're making a website and a desktop application to manage european volleyball tournement in Annecy<br />
 								As a project manager, I'm responsible for the organisation of the team work, and I make sure the development meets the requirements.
 							</p>
@@ -92,7 +92,7 @@
 							</div>
 						</div>
 						<div class="flex-row mt-1">
-							<p class="work-description h-5 justify col-3">
+							<p class="work-description h-6 justify col-3">
 								Making websites for private individuals and companies. I fully manage projects, from customer relationship management to production launch.<br /><br />
 								Last customer: <a href="http://polnets.com/">Polnets</a>, for a international showcase site presenting its products.<br />
 							</p>

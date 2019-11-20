@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
 
 	setupProjectsSize();
+	resetHeightDescription();
+	setHeightDescription();
+
 	window.addEventListener('resize', function() {
 		setupProjectsSize();
+		resetHeightDescription();
+		setHeightDescription();
 	})
 
 	let projects = document.querySelectorAll('.project');
@@ -15,6 +20,42 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 
 })
+
+function resetHeightDescription() {
+	let descriptions = document.querySelectorAll('.project_description');
+	for (let d of descriptions) {
+		d.style.height = "auto";
+		console.log(d)
+	}
+	console.log("resized !!!!");
+}
+
+function setHeightDescription() {
+	let max = maxHeightDescription();
+	let descriptions = document.querySelectorAll('.project_description');
+
+	for (let d of descriptions) {
+		d.style.height = max + "px";
+	}
+
+	let container = document.querySelector("#projects-descriptions");
+	container.style.height = max + "px";
+}
+
+function maxHeightDescription() {
+	let descriptions = document.querySelectorAll('.project_description, #projects-buttons');
+	let max = 0;
+	let current;
+
+	for (let d of descriptions) {
+		current = d.offsetHeight;
+		if (current > max) {
+			max = current;
+		}
+	}
+
+	return max;
+}
 
 function setupProjectsSize() {
 	let projects = document.querySelectorAll('.project');
@@ -38,21 +79,29 @@ function disableCurrentProject() {
 	let buttons = document.querySelector(".project-buttons.active");
 
 	project.classList.remove('active');
+	// project.classList.add('fade-in');
 	description.classList.remove('active');
+	description.classList.add('fade-in');
 	technos.classList.remove('active');
+	technos.classList.add('fade-in');
 	buttons.classList.remove('active');
+	buttons.classList.add('fade-in');
 }
 
 function setActive(elt) {
 	elt.classList.add('active');
+	// elt.classList.remove('fade-in');
 	let id = elt.dataset.p_id;
 
 	let description = document.querySelector(".project_description[data-p_id='" + id + "']");
 	description.classList.add('active');
+	description.classList.remove('fade-in');
 
 	let technos = document.querySelector(".project-technos[data-p_id='" + id + "']");
 	technos.classList.add('active');
+	technos.classList.remove('fade-in');
 
 	let buttons = document.querySelector(".project-buttons[data-p_id='" + id + "']");
 	buttons.classList.add('active');
+	buttons.classList.remove('fade-in');
 }

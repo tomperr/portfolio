@@ -5,6 +5,10 @@
 	z-index: 2;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 li {
 	list-style-type: none;
 }
@@ -398,9 +402,5 @@ input[type="submit"]:hover {
 	width: default;
 	position: relative;
 	opacity: 1;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
 	transition: 0.5s all ease;
 }

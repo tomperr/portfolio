@@ -24,6 +24,9 @@
 					<div class="inline-block bg-sun padding margin h-5 lovedtech animate fade-in-top">
 						Optimisation
 					</div>
+					<div class="inline-block bg-emerald padding margin h-5 lovedtech animate fade-in-top">
+						Unix
+					</div>
 				</div>
 				<p class="pt-1 h-3" align="right">Download my <span class="bg-alizarin padding"><a href="#">resume</a></span></p>
 			</div>

@@ -34,7 +34,6 @@
 
 	<script src="js/menu.js"></script>
 	<script src="js/parallax.js"></script>
-	<script src="js/skills.js"></script>
 	<script src="js/projects.js"></script>
 	<script src="js/appear.js"></script>
 

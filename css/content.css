@@ -265,7 +265,7 @@
 	display: block;
 	position: absolute;
 	bottom: -5px;
-	right: 0px;
+	left: 0px;
 	height: 2px;
 	width: 30%;
 	background-color: black;
@@ -281,12 +281,21 @@
 #projects_container > .flex-row {
 	flex-flow: row wrap;
 }
+
+#projects-descriptions, #projects_complement {
+	position: relative;
+}
+
 .project_description {
-	display: none;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	/*display: none;*/
 }
 
 .project_description.active {
-	display: block;
+	opacity: 1;
+	/*display: block;*/
 }
 
 .project {
