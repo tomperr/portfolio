@@ -43,7 +43,7 @@
 								2D game in which the player embodies a spaceship destroying the ships that attack him. Developed in 5 days, in C++ with the SFML library, within a team of 4 students. I contributed to the game system, including the generation of enemy ships and the player's movements. At the end of the project, I also took care of the optimization of memory accesses.
 							</p>
 						</div>
-						<div data-p_id='3' class="project_description animate fade-in active ">
+						<div data-p_id='3' class="project_description animate active">
 							<h4 class="h-4">Not An Asset Store Dungeon</h4>
 							<p class="h-5">
 								Made under Unity in 5 days with a group of 5 other students, it is a 2D exploration game in a procedurally generated dungeon. I mainly contributed to the realization of the dungeon creation algorithm, and I also developed the artificial intelligence of enemies.
@@ -87,7 +87,7 @@
 									SFML
 								</div>
 							</div>
-							<div data-p_id="3" class="project-technos active flex-row flex-wrap animate fade-in" align="right">
+							<div data-p_id="3" class="project-technos active flex-row flex-wrap animate" align="right">
 								<div class="inline-block bg-alizarin padding margin h-5">
 									Unity
 								</div>
@@ -129,7 +129,7 @@
 									<a href="https://github.com/Yoshinker/SuperFireMegaLazer/releases/tag/final" class="btn btn-danger" target="_blank">Download</a>
 								</div>
 							</div>
-							<div data-p_id="3" class="project-buttons animate fade-in active" align="right">
+							<div data-p_id="3" class="project-buttons animate active" align="right">
 								<div>
 									<a href="https://github.com/Yoshinker/not_an_asset_store_dungeon" class="btn btn-primary" target="_blank">Code</a>
 								</div>

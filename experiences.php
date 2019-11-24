@@ -32,7 +32,23 @@
 									<img src="img/univ_logo.png" class="animate fade-in-right">
 								</div>
 							</div>
-							
+							<div class="experiences-keywords">
+								<div class="mr-1">
+									<h4>Keywords:</h4>
+								</div>
+								<div class="padding margin bg-sun">
+									Web
+								</div>
+								<div class="padding margin bg-river">
+									OOP
+								</div>
+								<div class="padding margin bg-emerald">
+									Conception
+								</div>
+								<div class="padding margin bg-alizarin">
+									Network
+								</div>
+							</div>
 						</div>
 						<div class="study animate fade-in-left mt-1">
 							<div class="study-title flex-row">
@@ -46,11 +62,25 @@
 							</div>
 							<div class="flex-row mt-1">
 								<p class="study-description h-6 justify col-3">
-									Discovering programmation (using Java environment) for graduation project Kroon (see below).
+									Discovering computer science and programmation (using Java environment) for graduation project Kroon (see below).
 									French Baccalaureate S with honors.
 								</p>
 								<div class="flex col-1 logo-container pl-1">
 									<img src="img/logo_academie-grenoble.png" class="animate fade-in-right">
+								</div>
+							</div>
+							<div class="experiences-keywords">
+								<div class="mr-1">
+									<h4>Keywords:</h4>
+								</div>
+								<div class="padding margin bg-alizarin">
+									Java
+								</div>
+								<div class="padding margin bg-emerald">
+									Hardware
+								</div>
+								<div class="padding margin bg-river">
+									Assembly
 								</div>
 							</div>
 						</div>
@@ -81,6 +111,20 @@
 								<img src="img/annecy_volleyball.jpg" class="animate fade-in-right">
 							</div>
 						</div>
+						<div class="experiences-keywords">
+								<div class="mr-1">
+									<h4>Keywords:</h4>
+								</div>
+								<div class="padding margin bg-river">
+									Wordpress
+								</div>
+								<div class="padding margin bg-alizarin">
+									Team Management
+								</div>
+								<div class="padding margin bg-emerald">
+									Python
+								</div>
+							</div>
 					</div>	
 					<div class="work animate fade-in-right mt-1">
 						<div class="work-title flex-row">
@@ -100,6 +144,23 @@
 								<img src="">
 							</div>
 						</div>
+						<div class="experiences-keywords">
+								<div class="mr-1">
+									<h4>Keywords:</h4>
+								</div>
+								<div class="padding margin bg-sun">
+									Web
+								</div>
+								<div class="padding margin bg-river">
+									OOP
+								</div>
+								<div class="padding margin bg-emerald">
+									Conception
+								</div>
+								<div class="padding margin bg-alizarin">
+									Network
+								</div>
+							</div>
 					</div>						
 				</div>
 			</div>
