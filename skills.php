@@ -28,6 +28,12 @@
 									</div>
 								</div>
 								<div class="skillbar">
+									<div class="skillbar-bar animate expand" data-percent="70%" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-title" align="center">
+										<span class="h-6">Laravel</span>
+									</div>
+								</div>
+								<div class="skillbar">
 									<div class="skillbar-bar animate expand" data-percent="90%" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">JS</span>
@@ -44,7 +50,7 @@
 									</div>
 								</div>
 								<div class="skillbar">
-									<div class="skillbar-bar animate expand" data-percent="70%" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar animate expand" data-percent="60%" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Woocommerce</span>
 									</div>
@@ -57,7 +63,7 @@
 
 				<div class="col-1 h100 ml-4 mr-4 relative skill-block" id="skill-block-devops">
 					<div class="skill-container h100">
-						<h3 class="h-4">Dev Ops</h3>
+						<h3 class="h-4">SYSTEM</h3>
 						<div class="bg-alizarin h100 p-1">
 
 							<div class="skill-group">
@@ -72,22 +78,6 @@
 									<div class="skillbar-bar animate expand" data-percent="83%" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Windows</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="skill-group mt-2">
-								<h3 class="skill-group-title h-5">POO</h3>
-								<div class="skillbar mt-1">
-									<div class="skillbar-bar animate expand" data-percent="88%" style="background-color: rgb(183, 52, 39)"></div>
-									<div class="skillbar-title" align="center">
-										<span class="h-6">C, C#, C++</span>
-									</div>
-								</div>
-								<div class="skillbar">
-									<div class="skillbar-bar animate expand" data-percent="77%" style="background-color: rgb(183, 52, 39)"></div>
-									<div class="skillbar-title" align="center">
-										<span class="h-6">Java</span>
 									</div>
 								</div>
 							</div>
@@ -108,13 +98,23 @@
 								</div>
 							</div>
 
+							<div class="skill-group mt-2">
+								<h3 class="skill-group-title h-5">SCRIPT</h3>
+								<div class="skillbar mt-1">
+									<div class="skillbar-bar animate expand" data-percent="85%" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-title" align="center">
+										<span class="h-6">Python</span>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
 
 				<div class="col-1 h100 ml-4 relative skill-block" id="skill-block-other">
 					<div class="skill-container h100">
-						<h3 class="h-4">Other</h3>
+						<h3 class="h-4">SOFTWARE</h3>
 						<div class="bg-emerald h100 p-1">
 
 							<div class="skill-group">
@@ -140,6 +140,22 @@
 								</div>
 							</div>
 
+							<div class="skill-group mt-2">
+								<h3 class="skill-group-title h-5">POO</h3>
+								<div class="skillbar mt-1">
+									<div class="skillbar-bar animate expand" data-percent="88%" style="background-color: rgb(31, 149, 81)"></div>
+									<div class="skillbar-title" align="center">
+										<span class="h-6">C, C#, C++</span>
+									</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-bar animate expand" data-percent="77%" style="background-color: rgb(31, 149, 81)"></div>
+									<div class="skillbar-title" align="center">
+										<span class="h-6">Java</span>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -147,34 +163,39 @@
 			</div>
 		</div>
 
-		<!--
-		<div id="skills-carousel" class="p-2" align="center">
-			<h3 class="h-4">I also know : TODO CAROUSEL</h3>
-		</div>
-		-->
+		<div id="other-skills" class="flex-col flex-center pt-1">
+			<div class="flex-row flex-around pl-1 pr-1">
 
-		<div id="other-skills" class="flex-col flex-center pt-1" align="center">
-			<h3 class="h-4">I also know</h2>
-			<div class="flex-row flex-around pt-1">
-				<div class="flex-col animate fade-in-left">
-					<h4 class="h-6">Visual Studio</h4>
-					<h4 class="h-6">JetBrains IDE</h4>
-					<h4 class="h-6">Sublime Text</h4>
+				<div class="col-1 mr-1">
+					<h3 class="h-4" align="center">Languages</h3>
+					<div class="flex-col pt-1">
+						<div class="language">
+							<h4 class="h-5">English</h4>
+							<h4 class="h-5" align="right">B2</h4>
+						</div>
+
+						<div class="language">
+							<h4 class="h-5">French</h4>
+							<h4 class="h-5" align="right">Native</h4>
+						</div>
+					</div>
 				</div>
-				<div class="flex-col animate fade-in-left">
-					<h4 class="h-6">Git</h4>
-					<h4 class="h-6">SFML</h4>
-					<h4 class="h-6">Django</h4>
+
+				<div class="col-2 ml-1 mr-1" align="center">
+					<h3 class="h-4">Personal</h3>
+					<div class="flex-col pt-1">
+						<h4 class="h-5">Autonomous</h4>
+						<h4 class="h-5">Self-trained</h4>
+					</div>
 				</div>
-				<div class="flex-col animate fade-in-left">
-					<h4 class="h-6">Laravel</h4>
-					<h4 class="h-6">WPF</h4>
-					<h4 class="h-6">Cybersecurity</h4>
+
+				<div class="col-1 ml-1" align="center">
+					<h3 class="h-4">External</h3>
+					<div class="flex-col pt-1">
+						<h4 class="h-5">Driver's license holder</h4>
+					</div>
 				</div>
-				<div class="flex-col animate fade-in-left">
-					<h4 class="h-6">Adobe Creative Suite</h4>
-					<h4 class="h-6">Open Office Suite</h4>
-				</div>
+
 			</div>
 		</div>
 

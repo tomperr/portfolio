@@ -226,6 +226,11 @@
 	color:rgba(0, 0, 0, 0.4);
 }
 
+.language {
+	display: flex;
+	justify-content: space-between;
+}
+
 /* EXPERIENCES */
 
 #experiences.section {
