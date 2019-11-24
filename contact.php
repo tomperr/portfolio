@@ -19,7 +19,7 @@
 						</div>
 						<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
 							<h4 class="contact-info-title h-4"><i class="fab fa-linkedin fa-fw margin"></i>Linkedin</h4>
-							<p class="contact-info-description h-5"><a href="https://www.linkedin.com/in/tom-perrillat-collomb-81b698182/">tom-perrillat-collomb</a></p>
+							<p class="contact-info-description h-5"><a href="https://www.linkedin.com/in/tom-perrillat-collomb-81b698182/" target="_blank">tom-perrillat-collomb</a></p>
 						</div>
 						<div class="contact-info animate fade-in-left flex-item-auto mt-1">
 							<h4 class="contact-info-title h-4"><i class="fab fa-github fa-fw margin"></i>Github</h4>
