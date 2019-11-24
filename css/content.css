@@ -427,6 +427,11 @@
 	transition: 0.5s all ease;
 }
 
+#refenreces-title {
+	display: inline-table;
+	color: white;
+}
+
 /* MEDIA QUERIES */
 
 /* SKILLS */

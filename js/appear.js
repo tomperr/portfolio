@@ -17,6 +17,7 @@ function animate() {
 			e.classList.remove("fade-in-right");
 			e.classList.remove("fade-in-top");
 			e.classList.remove("fade-in-bottom");
+			e.classList.remove("fade-in");
 
 			e.classList.remove("slide-left");
 			e.classList.remove("slide-right");
