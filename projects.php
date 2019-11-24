@@ -15,7 +15,7 @@
 						<div data-p_id='2' class="project" id="project-sfml"></div>
 					</div>
 					<div class="col-1 p-1 col-project" align="center">
-						<h5 class="h-6">Not An Asset Store Dungeon</h5>
+						<h5 class="h-6">NAASD</h5>
 						<div data-p_id='3' class="project active" id="project-unity"></div>
 					</div>
 					<div class="col-1 p-1 col-project" align="center">
@@ -52,7 +52,7 @@
 						<div data-p_id='4' class="project_description animate fade-in">
 							<h4 class="h-4">42 Blog</h4>
 							<p class="h-5">
-								Personal blog project to share my experience at school 101 (now renamed 42). Content could be added through an administrator interface, such as articles and messages resembling Tweets. 
+								Personal blog project to share my experience at school 101 (now renamed 42 Lyon). Content could be added through an administrator interface, such as articles and messages resembling Tweets. 
 								Developed in Python 3 with the Django framework, this site adopts a responsive design.
 							</p>
 						</div>

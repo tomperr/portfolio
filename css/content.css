@@ -391,6 +391,17 @@
 	background-size: cover;
 }
 
+/* HOBBIES */
+
+.section#hobbies {
+	background: url('../img/pattern-black.jpg');
+	background-size: cover;
+}
+
+.hobbie-title {
+	text-align: center;
+}
+
 /* CONTACT */
 
 .section#contact {

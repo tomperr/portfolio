@@ -38,8 +38,6 @@ function setHeightDescription() {
 		d.style.height = max + "px";
 	}
 
-	let container = document.querySelector("#projects-descriptions");
-	container.style.height = max + "px";
 }
 
 function maxHeightDescription() {
