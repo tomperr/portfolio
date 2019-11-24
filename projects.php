@@ -118,33 +118,33 @@
 						<div id="projects-buttons" class="flex-col flex-end">
 							<div data-p_id="1" class="project-buttons animate fade-in" align="right">
 								<div>
-									<a href="https://github.com/Yoshinker/velore" class="btn btn-primary btn-border" target="_blank">Code</a>
+									<a href="https://github.com/tomperr/velore" class="btn btn-primary btn-border" target="_blank">Code</a>
 								</div>
 							</div>
 							<div data-p_id="2" class="project-buttons animate fade-in" align="right">
 								<div>
-									<a href="https://github.com/Yoshinker/SuperFireMegaLazer" class="btn btn-primary btn-border" target="_blank">Code</a>
+									<a href="https://github.com/tomperr/SuperFireMegaLazer" class="btn btn-primary btn-border" target="_blank">Code</a>
 								</div>
 								<div class="mt-1">
-									<a href="https://github.com/Yoshinker/SuperFireMegaLazer/releases/tag/final" class="btn btn-danger btn-border" target="_blank">Download</a>
+									<a href="https://github.com/tomperr/SuperFireMegaLazer/releases/tag/final" class="btn btn-danger btn-border" target="_blank">Download</a>
 								</div>
 							</div>
 							<div data-p_id="3" class="project-buttons animate active" align="right">
 								<div>
-									<a href="https://github.com/Yoshinker/not_an_asset_store_dungeon" class="btn btn-primary btn-border" target="_blank">Code</a>
+									<a href="https://github.com/tomperr/not_an_asset_store_dungeon" class="btn btn-primary btn-border" target="_blank">Code</a>
 								</div>
 								<div class="mt-1">
-									<a href="https://github.com/Yoshinker/not_an_asset_store_dungeon/releases/tag/final" class="btn btn-danger btn-border" target="_blank">Download</a>
+									<a href="https://github.com/tomperr/not_an_asset_store_dungeon/releases/tag/final" class="btn btn-danger btn-border" target="_blank">Download</a>
 								</div>
 							</div>
 							<div data-p_id="4" class="project-buttons animate fade-in" align="right">
 								<div>
-									<a href="https://github.com/Yoshinker/blog" class="btn btn-primary btn-border" target="_blank">Code</a>
+									<a href="https://github.com/tomperr/blog" class="btn btn-primary btn-border" target="_blank">Code</a>
 								</div>
 							</div>
 							<div data-p_id="5" class="project-buttons animate fade-in" align="right">
 								<div>
-									<a href="https://github.com/Yoshinker/kroon" class="btn btn-primary btn-border" target="_blank">Code</a>
+									<a href="https://github.com/tomperr/kroon" class="btn btn-primary btn-border" target="_blank">Code</a>
 								</div>
 							</div>
 						</div>

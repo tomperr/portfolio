@@ -10,7 +10,7 @@
 				<div class="col-2">
 					<div id="contact-infos" class="flex-col flex-center h100 pl-1">
 						<div class="contact-info animate fade-in-left flex-item-auto mb-1">
-							<h4 class="contact-info-title h-4"><i class="fas fa-map-marker-alt fa-fw margin"></i>Adresse</h4>
+							<h4 class="contact-info-title h-4"><i class="fas fa-map-marker-alt fa-fw margin"></i>Address</h4>
 							<p class="contact-info-description h-5">12 chemin des prés ronds</p>
 						</div>
 						<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
