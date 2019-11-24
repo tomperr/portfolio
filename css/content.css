@@ -398,8 +398,13 @@
 	background-size: cover;
 }
 
-.hobbie-title {
-	text-align: center;
+.hobbie-container {
+	justify-content: center;
+}
+
+.hobbie-image {
+	width: 100%;
+	height: auto;
 }
 
 /* CONTACT */
