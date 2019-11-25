@@ -9,7 +9,7 @@
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	z-index: 999;
+	z-index: -1;
 	width: 100vw;
 	height: 100vh;
 	background-color: rgb(4,2,8);
@@ -424,6 +424,19 @@
 
 /* HOBBIES */
 
+.hobbie {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.hobbie:nth-child(odd) {
+	flex-direction: row;
+}
+
+.hobbie:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
 .section#hobbies {
 	background: url('../img/pattern-black.jpg');
 	background-size: cover;
@@ -436,6 +449,10 @@
 .hobbie-image {
 	width: 100%;
 	height: auto;
+}
+
+@media screen and (max-width: 900px) {
+
 }
 
 /* CONTACT */

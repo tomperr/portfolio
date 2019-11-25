@@ -33,6 +33,7 @@ function arrayContainsAnotherArray(needle, haystack){
 function showBlackHole() {
 	let div = document.querySelector("#black-hole-container");
 	div.classList.remove('hidden');
+	div.style.zIndex = "999";
 
 	let body = document.querySelector("body");
 	body.style.overflow = "hidden"; 

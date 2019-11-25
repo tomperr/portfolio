@@ -9,7 +9,7 @@
 
 			<div class="flex-col h100">
 
-				<div class="hobbie mb-1 flex-row animate fade-in-left">
+				<div class="hobbie mb-1 animate fade-in-left">
 					<div class="col-1 mr-1">
 						<img src="img/pentesting.jpg" class="hobbie-image">
 					</div>
@@ -21,19 +21,19 @@
 					</div>
 				</div>
 
-				<div class="hobbie mt-1 mb-1 flex-row animate fade-in-right">
+				<div class="hobbie mt-1 mb-1 animate fade-in-right">
+					<div class="col-1 ml-1">
+						<img src="img/zelda.jpg" class="hobbie-image">
+					</div>
 					<div class="col-3 mr-1 hobbie-container flex-col">
 						<h3 class="hobbie-title h-5" align="right"><i class="fas fa-gamepad"></i> Video Games</h3>
 						<p class="h-6 justify">
 							I discovered video games thanks to my older brother when I was 6 years old. He made me discover universes that fascinated me. This medium allows you to create all the stories you want, to convey a lot of emotions. I met people who are now friends on some online games, with who I have unforgettable memories.
 						</p>
 					</div>
-					<div class="col-1 ml-1">
-						<img src="img/zelda.jpg" class="hobbie-image">
-					</div>
 				</div>
 
-				<div class="hobbie mt-1 flex-row animate fade-in-right">
+				<div class="hobbie mt-1 animate fade-in-right">
 					<div class="col-1 mr-1">
 						<img src="img/badminton.jpg" class="hobbie-image">
 					</div>
@@ -46,30 +46,7 @@
 				</div>
 
 			</div>
+		</div>
 
-			<!--
-			<div class="flex-row h100">
-				
-				<div class="col-1 hobbie mr-1">
-					
-					<h3 class="hobbie-title h-4"><i class="fas fa-gamepad"></i> Video games</h3>
-					<img src="img/journey.png" class="hobbie-image">
-					<p class="h-5 justify">
-						<?php echo Lorem::ipsum(1); ?>
-					</p>
-				</div>
-
-				<div class="col-1 hobbie ml-1 mr-1">
-					
-				</div>
-
-				<div class="col-1 hobbie ml-1">
-					
-				</div>
-
-			</div>
-		-->
 	</div>
-
-</div>
 </div>

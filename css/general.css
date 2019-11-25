@@ -121,6 +121,10 @@ span.highlight {
 	flex-direction: row;
 }
 
+.flex-reverse-row {
+	flex-direction: row-reverse;
+}
+
 .flex-col {
 	flex-direction: column;
 }
