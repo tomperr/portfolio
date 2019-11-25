@@ -5,6 +5,32 @@
 	border: 1px solid black;
 }
 
+#black-hole-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(4,2,8);
+	opacity: 1;
+	transition: all 1.5s ease;
+}
+
+#black-hole-container.hidden {
+	opacity: 0;
+}
+
+#black-hole {
+	position: absolute;
+	width: 20vw;
+	height: auto;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+
 /* NAVIGATION */
 
 #navigation {

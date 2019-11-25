@@ -29,6 +29,8 @@
 		include_once "projects.php";
 		include_once "hobbies.php";
 		include_once "contact.php";
+
+		include_once "black-hole.php";
 		
 		?>
 	</main>
@@ -37,6 +39,7 @@
 	<script src="js/parallax.js"></script>
 	<script src="js/projects.js"></script>
 	<script src="js/appear.js"></script>
+	<script src="js/konami_code.js"></script>
 
 </body>
 </html>
