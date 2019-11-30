@@ -1,9 +1,4 @@
-/*
-* @Author: TomPC
-* @Date:   2019-10-07 19:50:49
-* @Last Modified by:   TomPC
-* @Last Modified time: 2019-10-13 17:51:30
-*/
+// not used
 
 document.addEventListener("DOMContentLoaded", function() {
 

@@ -182,7 +182,6 @@
 	margin-bottom:15px;
 	width:100%;
 	background:#eee;
-	height:35px;
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -250,6 +249,27 @@
 	line-height:35px;
 	color: black;
 	color:rgba(0, 0, 0, 0.4);
+}
+
+.skillbar-desc {
+	background-color: #222222;
+	transition: padding 1s, height 1s, opacity 0.5s;
+	height: 0px;
+	color: white;
+	padding: 0px;
+}
+
+.skillbar-desc > p {
+	height: 0px
+}
+
+.skillbar-desc.active {
+	height: auto;
+	padding: 0.5em;
+}
+
+.skillbar-desc.active > p {
+	height: auto;
 }
 
 .language {
@@ -473,6 +493,16 @@
 #refenreces-title {
 	display: inline-table;
 	color: white;
+}
+
+#contacts-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#contacts-container > div {
+	flex: 1 0 40%;
 }
 
 /* MEDIA QUERIES */

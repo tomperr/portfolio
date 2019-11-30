@@ -1,17 +1,9 @@
-#main-menu {
+#navigation {
+	transition: all 0.1s ease;
 	position: fixed;
-	margin-left: 1%;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
 }
 
-#main-menu li {
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-nav {
-	position: fixed;
+#navigation-menu {
+	font-size: 1.2em;
 }
 

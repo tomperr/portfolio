@@ -10,7 +10,7 @@
 				<p class="h-4 pt-1 pb-1 justify animate fade-in-top">
 					I also work as a <span class="text-river">freelance</span> : creating original websites is so exciting!
 				</p>
-				<h2>I love</h2>
+				<h2 class="h-4">I love</h2>
 				<div class="inline-block">
 					<div class="inline-block bg-emerald padding margin h-5 lovedtech animate fade-in-top">
 						Cybersecurity
@@ -28,7 +28,7 @@
 						Unix
 					</div>
 				</div>
-				<p class="pt-1 h-3" align="right">Download my <span class="bg-alizarin padding"><a href="#">resume</a></span></p>
+				<p class="pt-1 h-3" align="right">Download my <span class="bg-alizarin padding"><a href="./docs/CV_Tom_PERRILLAT-COLLOMB.pdf" target="_blank">resume</a></span></p>
 			</div>
 			<div class="col-1 pl-4" id="about-img">
 			</div>

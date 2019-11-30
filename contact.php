@@ -8,16 +8,27 @@
 		<div class="flex-item-fill">
 			<div class="flex-row h100" id="contact-flex">
 				<div class="col-1">
-					<div id="contact-infos" class="flex-col flex-center h100 pl-1">
+					<div id="contact-infos" class="flex-col flex-center h100">
 
-						<div class="flex-row">
-							<div class="col-1 contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
-								<h4 class="contact-info-title h-4"><i class="fas fa-at fa-fw margin"></i>Email</h4>
+						<div id="contacts-container">
+							<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
+								<h4 class="contact-info-title h-5"><i class="fas fa-at fa-fw margin"></i>Email</h4>
 								<p class="contact-info-description h-6"><a href="mailto:perrillatcollomb.tom@gmaiL.com">perrillatcollomb.tom@gmail.com</a></p>
 							</div>
-							<div class="col-1 contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
-								<h4 class="contact-info-title h-4"><i class="fab fa-linkedin fa-fw margin"></i>Linkedin</h4>
+							<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
+								<h4 class="contact-info-title h-5"><i class="fab fa-linkedin fa-fw margin"></i>Linkedin</h4>
 								<p class="contact-info-description h-6"><a href="https://www.linkedin.com/in/tom-perrillat-collomb-81b698182/" target="_blank">tom-perrillat-collomb</a></p>
+							</div>
+							<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
+								<h4 class="contact-info-title h-5"><i class="fas fa-phone margin"></i>Phone</h4>
+								<p class="contact-info-description h-6">+33 6 42 68 75 88</p>
+							</div>
+							<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
+								<h4 class="contact-info-title h-5"><i class="fas fa-home margin"></i>Address</h4>
+								<p class="contact-info-description h-6">
+									12 chemin des prés ronds,<br />
+									Montagny-les-lanches, France
+								</p>
 							</div>
 						</div>
 						
@@ -30,7 +41,7 @@
 									<p class="h-6"><a href="mailto:vincent.couturier@etu.univ-smb.fr">vincent.couturier@etu.univ-smb.fr</a></p>
 									<p class="h-6">Annecy, France</p>
 									<p class="h-6">
-										Senior lecturer and researcher in Knowledge and Skills Engineering at the University of Savoy
+										Web and algorithms teacher, researcher at University of Savoy
 									</p>
 								</div>
 							</div>
@@ -40,7 +51,7 @@
 									<p class="h-6"><a href="mailto:">luc.damas@etu.univ-smb.fr</a></p>
 									<p class="h-6">Annecy, France</p>
 									<p class="h-6">
-										Senior lecturer and researcher in Information Systems at the University of Savoy
+										OOP and DBMS teacher, researcher at University of Savoy
 									</p>
 								</div>			
 							</div>
@@ -56,23 +67,23 @@
 					<form class="flex-col h100 pl-2" id="contact-form">
 						<div class="form-group-inline flex-item-auto">
 							<div class="form-control">
-								<label for="form_firstname" class="bg-emerald padding">Firstname</label>
+								<label for="form_firstname" class="bg-river padding">Firstname</label>
 								<input type="text" name="form_firstname" id="form_firstname" placeholder="Bruce">
 								<span class="focus-border"></span>
 							</div>
 							<div class="form-control">
-								<label for="form_lastname" class="bg-emerald padding">Lastname</label>
+								<label for="form_lastname" class="bg-river padding">Lastname</label>
 								<input type="text" name="form_lastname" id="form_lastname" placeholder="Wayne">
 								<span class="focus-border"></span>
 							</div>
 						</div>
 						<div class="form-control flex-item-auto">
-							<label for="form_email" class="bg-emerald padding">Email</label>
+							<label for="form_email" class="bg-river padding">Email</label>
 							<input type="text" name="form_email" id="form_email" placeholder="bruce@wayne.com">
 							<span class="focus-border"></span>
 						</div>
 						<div class="form-control flex-item-fill">
-							<label for="form_message" class="bg-emerald padding">Message</label>
+							<label for="form_message" class="bg-river padding">Message</label>
 							<textarea class="flex-item-fill" name="form_message" id="form_message" placeholder="Hi Tom!"></textarea>
 						</div>
 						<div align="right">

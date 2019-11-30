@@ -1,3 +1,5 @@
+// aborted
+
 document.addEventListener("DOMContentLoaded", function() {
 
 	// getting navigation elements
