@@ -20,15 +20,12 @@
 								<p class="contact-info-description h-6"><a href="https://www.linkedin.com/in/tom-perrillat-collomb-81b698182/" target="_blank">tom-perrillat-collomb</a></p>
 							</div>
 							<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
-								<h4 class="contact-info-title h-5"><i class="fas fa-phone margin"></i>Phone</h4>
-								<p class="contact-info-description h-6">+33 6 42 68 75 88</p>
+								<h4 class="contact-info-title h-5"><i class="fas fa-flag margin"></i>Nationality</h4>
+								<p class="contact-info-description h-6">French</p>
 							</div>
 							<div class="contact-info animate fade-in-left flex-item-auto mt-1 mb-1">
-								<h4 class="contact-info-title h-5"><i class="fas fa-home margin"></i>Address</h4>
-								<p class="contact-info-description h-6">
-									12 chemin des prés ronds,<br />
-									Montagny-les-lanches, France
-								</p>
+								<h4 class="contact-info-title h-5"><i class="fas fa-birthday-cake margin"></i>Birthday</h4>
+								<p class="contact-info-description h-6">8 March 2000</p>
 							</div>
 						</div>
 						
