@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-	let path = "audio/sonic.mp3";
+	let path = "audio/velvetroom.mp3";
 	let audio_player = new Audio(path);
 
 	let code = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
 		//console.log(e);
 		inputs.push(e.key);
 		if (arrayContainsAnotherArray(code, inputs)) {
-			if (!done) {
-				inputs = [];
-				audio_player.play();
-				showBlackHole();
-				done = true;
-			}
+			inputs = [];
+			let main = document.querySelector("main");
+			main.classList.toggle("invert");
+			audio_player.play();
+			//showBlackHole(); aborted because of c'est chelou
+			done = !done;
 		}
 	})
 

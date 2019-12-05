@@ -1,4 +1,4 @@
-// not used
+// not used because of c'est chiant pour le responsive
 
 document.addEventListener("DOMContentLoaded", function() {
 

@@ -1,4 +1,4 @@
-// aborted
+// aborted because of c'est moche
 
 document.addEventListener("DOMContentLoaded", function() {
 
