@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function scrollTo() {
-	console.log("scrolled")
 	const links = document.querySelectorAll('a.link');
 	links.forEach(each => (each.onclick = scrollAnchors));
 }

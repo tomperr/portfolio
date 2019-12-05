@@ -10,7 +10,7 @@
 			<div class="flex-col h100">
 
 				<div class="hobbie mb-1 animate fade-in-left">
-					<div class="col-1 mr-1">
+					<div class="col-1 mr-1 hobbie-image-container">
 						<img src="img/pentesting.jpg" class="hobbie-image">
 					</div>
 					<div class="col-3 ml-1 hobbie-container flex-col">
@@ -22,7 +22,7 @@
 				</div>
 
 				<div class="hobbie mt-1 mb-1 animate fade-in-right">
-					<div class="col-1 ml-1">
+					<div class="col-1 ml-1 hobbie-image-container">
 						<img src="img/zelda.jpg" class="hobbie-image">
 					</div>
 					<div class="col-3 mr-1 hobbie-container flex-col">
@@ -34,7 +34,7 @@
 				</div>
 
 				<div class="hobbie mt-1 animate fade-in-right">
-					<div class="col-1 mr-1">
+					<div class="col-1 mr-1 hobbie-image-container">
 						<img src="img/badminton.jpg" class="hobbie-image">
 					</div>
 					<div class="col-3 ml-1 hobbie-container flex-col">

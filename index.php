@@ -12,7 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="css/factory.css">
 	<link rel="stylesheet" type="text/css" href="css/general.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
-	<link rel="stylesheet" type="text/css" href="css/menu.css">
 </head>
 <body>
 

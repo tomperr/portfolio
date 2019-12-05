@@ -2,7 +2,7 @@
 	<div class="spaced flex-col">
 
 		<div class="mb-3 flex-item-auto">
-			<h2 class="subtitle animate expand h-4 pl-5">3615 life</h2>
+			<h2 class="subtitle animate expand h-4 pl-5">Experiences</h2>
 		</div>
 
 		<div class="flex-item-fill">
@@ -53,7 +53,7 @@
 						<div class="study animate fade-in-left mt-1">
 							<div class="study-title flex-row">
 								<div class="flex-col col-3">
-									<h4 class="study-name h-4">High School diploma specialized in sciences</h4>
+									<h4 class="study-name h-4">French Baccalaureate S (High School diploma specialized in sciences)</h4>
 									<h4 class="study-location h-6">Baudelaire High School, Cran-Gevrier, France</h4>
 								</div>
 								<div class="flex date-container col-1">
@@ -62,7 +62,7 @@
 							</div>
 							<div class="flex-row mt-1">
 								<p class="study-description h-6 justify col-3">
-									Discovering computer science and programmation (using Java environment) for graduation project Kroon (see below).
+									Discovering computer science and programmation (using Java environment) for graduation project 'Kroon' (see below).
 									French Baccalaureate S with honors.
 								</p>
 								<div class="flex col-1 logo-container pl-1">

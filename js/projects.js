@@ -23,20 +23,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function resetHeightDescription() {
 	let descriptions = document.querySelectorAll('.project_description');
+	let container = document.querySelector('#projects-descriptions');
 	for (let d of descriptions) {
 		d.style.height = "auto";
-		console.log(d)
 	}
-	console.log("resized !!!!");
+	container.style.height = "auto";
 }
 
 function setHeightDescription() {
 	let max = maxHeightDescription();
 	let descriptions = document.querySelectorAll('.project_description');
+	let container = document.querySelector('#projects-descriptions');
 
 	for (let d of descriptions) {
 		d.style.height = max + "px";
 	}
+
+	container.style.height = max + "px";
 
 }
 

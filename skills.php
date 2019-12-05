@@ -16,7 +16,7 @@
 							<div class="skill-group">
 								<h3 class="skill-group-title h-5">TECH</h3>
 								<div class="skillbar mt-1">
-									<div class="skillbar-bar animate expand" data-percent="95%" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar animate expand" data-percent="100%" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">HTML/CSS</span>
 									</div>
@@ -44,13 +44,13 @@
 							<div class="skill-group mt-2">
 								<h3 class="skill-group-title h-5">CMS</h3>
 								<div class="skillbar mt-1">
-									<div class="skillbar-bar animate expand" data-percent="85%" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar animate expand" data-percent="80%" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Wordpress</span>
 									</div>
 								</div>
 								<div class="skillbar">
-									<div class="skillbar-bar animate expand" data-percent="60%" style="background-color: rgb(33, 107, 155)"></div>
+									<div class="skillbar-bar animate expand" data-percent="55%" style="background-color: rgb(33, 107, 155)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Woocommerce</span>
 									</div>
@@ -69,13 +69,13 @@
 							<div class="skill-group">
 								<h3 class="skill-group-title h-5">OS</h3>
 								<div class="skillbar mt-1">
-									<div class="skillbar-bar animate expand" data-percent="88%" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar animate expand" data-percent="90%" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Unix</span>
 									</div>
 								</div>
 								<div class="skillbar">
-									<div class="skillbar-bar animate expand" data-percent="83%" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar animate expand" data-percent="80%" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Windows</span>
 									</div>
@@ -85,25 +85,15 @@
 							<div class="skill-group mt-2">
 								<h3 class="skill-group-title h-5">DATA</h3>
 								<div class="skillbar mt-1">
-									<div class="skillbar-bar animate expand" data-percent="82%" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar animate expand" data-percent="75%" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">SQL</span>
 									</div>
 								</div>
 								<div class="skillbar">
-									<div class="skillbar-bar animate expand" data-percent="70%" style="background-color: rgb(183, 52, 39)"></div>
+									<div class="skillbar-bar animate expand" data-percent="68%" style="background-color: rgb(183, 52, 39)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">PLSQL</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="skill-group mt-2">
-								<h3 class="skill-group-title h-5">SCRIPT</h3>
-								<div class="skillbar mt-1">
-									<div class="skillbar-bar animate expand" data-percent="85%" style="background-color: rgb(183, 52, 39)"></div>
-									<div class="skillbar-title" align="center">
-										<span class="h-6">Python</span>
 									</div>
 								</div>
 							</div>
@@ -141,9 +131,9 @@
 							</div>
 
 							<div class="skill-group mt-2">
-								<h3 class="skill-group-title h-5">POO</h3>
+								<h3 class="skill-group-title h-5">OOP</h3>
 								<div class="skillbar mt-1">
-									<div class="skillbar-bar animate expand" data-percent="88%" style="background-color: rgb(31, 149, 81)"></div>
+									<div class="skillbar-bar animate expand" data-percent="90%" style="background-color: rgb(31, 149, 81)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">C, C#, C++</span>
 									</div>
@@ -152,6 +142,12 @@
 									<div class="skillbar-bar animate expand" data-percent="77%" style="background-color: rgb(31, 149, 81)"></div>
 									<div class="skillbar-title" align="center">
 										<span class="h-6">Java</span>
+									</div>
+								</div>
+								<div class="skillbar mt-1">
+									<div class="skillbar-bar animate expand" data-percent="85%" style="background-color: rgb(31, 149, 81)"></div>
+									<div class="skillbar-title" align="center">
+										<span class="h-6">Python</span>
 									</div>
 								</div>
 							</div>

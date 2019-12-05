@@ -2,8 +2,7 @@ main {
 	background: url('../img/pattern-black.jpg');
 	background-repeat: repeat;
 	background-size: 100%;
-	filter: invert(0);
-	transition: filter ease 1s;
+	transition: all ease 1s;
 }
 
 main.invert {
@@ -48,6 +47,8 @@ main.invert {
 #navigation {
 	display: block;
 	position: fixed;
+	top: 0px;
+	left: 0px;
 
 	z-index: 3;
 	width: 100%;
@@ -57,10 +58,17 @@ main.invert {
 
 #navigation a, #navigation p {
 	color: white;
+	font-size: 1.2em;
 }
 
 #navigation-menu {
 	background-color: rgba(0,0,0,0.8);
+}
+
+@media screen and (max-width: 800px) {
+	#navigation, #navigation-menu {
+		display: none;
+	}
 }
 
 /* HEADER */
@@ -484,6 +492,21 @@ main.invert {
 }
 
 @media screen and (max-width: 900px) {
+	.hobbie {
+		flex-direction: column !important;
+		margin-bottom: 2em;
+	}
+
+	.hobbie-image {
+		width: 80%;
+		height: auto;
+		padding-bottom: 1em;
+	}
+
+	.hobbie-image-container {
+		text-align: center;
+		margin: 0px;
+	}
 
 }
 
@@ -651,6 +674,3 @@ main.invert {
 	}
 }
 
-@media screen and and (max-width: 600px) {
-
-}
