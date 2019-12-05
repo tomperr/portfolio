@@ -14,8 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
 			inputs = [];
 			let main = document.querySelector("main");
 			main.classList.toggle("invert");
-			audio_player.play();
 			//showBlackHole(); aborted because of c'est chelou
+			if (done) {
+				audio_player.pause();
+				audio_player.currentTime = 0;
+			} else {
+				audio_player.play();
+			}
 			done = !done;
 		}
 	})

@@ -30,7 +30,7 @@
 		include_once "hobbies.php";
 		include_once "contact.php";
 
-		include_once "black-hole.php";
+		// include_once "black-hole.php";
 		
 		?>
 	</main>
