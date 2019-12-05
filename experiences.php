@@ -53,7 +53,7 @@
 						<div class="study animate fade-in-left mt-1">
 							<div class="study-title flex-row">
 								<div class="flex-col col-3">
-									<h4 class="study-name h-4">French Baccalaureate S (High School diploma specialized in sciences)</h4>
+									<h4 class="study-name h-4">French Baccalaureate S (High School diploma specialized in science)</h4>
 									<h4 class="study-location h-6">Baudelaire High School, Cran-Gevrier, France</h4>
 								</div>
 								<div class="flex date-container col-1">
